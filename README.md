@@ -65,6 +65,9 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 |-------------------------|-----------------------------------------|------------------------------------------------|
 | NMAP Paketi Analiz      | [researchs/nmap.md](researchs/nmap.md) | In-depth analysis of NMAP suite. / *NMAP paketinin derinlemesine analizi.* |
 | Example Research Topic  | [researchs/nmapozet.md](researchs/nmapozet.md) | Brief overview of this research. / *Bu araştırmanın kısa bir özeti.* |
+| Chat GPT - OpenAI       | https://chatgpt.com/                    |
+| Grok                    | https://grok.com/                       |
+| Gemini                  | https://gemini.google.com/              |
 
 ---
 
@@ -84,8 +87,9 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 3. **Install Dependencies / *Bağımlılıkları Yükleyin***:  
    ```bash
-   pip install -r requirements.txt
+
    sudo apt update
+   sudo apt install python3
    sudo apt install nmap
    sudo apt install nikto
    sudo apt install gobuster
@@ -94,7 +98,9 @@ See our plans in [ROADMAP.md](ROADMAP.md).
    sudo apt install whois
    sudo apt install arp-scan
    pip install reportlab mac-vendor-lookup idna
+   pip install python-nmap
    sudo apt install sqlmap *optional*
+   
    ```
 
 ---
