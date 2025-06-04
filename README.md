@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-![analyzer_logo](https://github.com/user-attachments/assets/c186e04f-af8c-4869-a4bf-4ec5518222a6)
+![analyzer_logo](https://github.com/user-attachments/assets/6d9eada4-a6d7-4e07-a461-dbd7f6d04538)
 
 # Analyzer
   
