@@ -17,14 +17,23 @@ Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web
 ## Features / *Özellikler*
 
   *URL'den IP Çözümleme: Bu özellik, girilen bir URL adresinin arkasındaki IP adresini hızlıca tespit etmenizi sağlar. Bu sayede, bir web sitesinin barındırıldığı sunucunun IP'sine ulaşarak daha ileri analizler    için başlangıç noktası elde edebilirsiniz.*
+
   *WHOIS Sorgusu Yapma: WHOIS sorgusu, bir alan adının kime ait olduğunu, kayıt tarihini, bitiş tarihini ve DNS sunucularını gibi bilgileri öğrenmenizi sağlar. Bu özellik, özellikle bir alan adının sahibini veya   iletişim bilgilerini tespit etmek istediğinizde oldukça faydalıdır.*
+  
   *NMAP ile Port ve İşletim Sistemi Taraması Yapma: NMAP entegrasyonu sayesinde, hedef sistemlerde açık olan portları ve çalışan işletim sistemini tespit edebilirsiniz. Bu, potansiyel güvenlik açıklarını           belirlemek ve hedef hakkında bilgi toplamak için kritik bir adımdır.*
+  
   *NIKTO ile Web Uygulama Güvenlik Taraması Yapma:NIKTO, web sunucularında ve web uygulamalarında bilinen güvenlik açıklarını, yanlış yapılandırmaları ve potansiyel zafiyetleri taramak için kullanılır. Bu          özellik, web uygulamalarınızın güvenliğini artırmak için önemli bir araçtır.*
+  
   *GOBUSTER ile Web Uygulama Güvenlik Taraması Yapma:GOBUSTER, bir web sitesindeki gizli dizinleri ve dosyaları (brute-force yöntemiyle) keşfetmek için kullanılır. Bu sayede, geliştiriciler tarafından unutulmuş    veya erişim denetimi zayıf olan alanları tespit ederek olası sızma noktalarını belirleyebilirsiniz.*
+  
   *WPSCAN ile WordPress Güvenlik Taraması Yapma: WPSCAN, özellikle WordPress tabanlı web siteleri için geliştirilmiş bir güvenlik tarama aracıdır. WordPress eklentilerindeki, temalarındaki ve çekirdek              yazılımındaki bilinen zafiyetleri tespit etmenizi sağlar.*
+  
   *SSL/TLS Güvenlik Taraması Yapma: Bu özellik, bir web sitesinin kullandığı SSL/TLS sertifikasının geçerliliğini, gücünü ve olası yapılandırma zafiyetlerini kontrol eder. Güvenli iletişim için kritik olan bu      tarama, şifreleme kalitesini değerlendirmenize yardımcı olur.*
+  
   *Risk Tespiti Gerçekleştirme: Yazılımınızın topladığı tüm verileri analiz ederek, tespit edilen zafiyetlerin ve yanlış yapılandırmaların potansiyel risk seviyelerini belirler. Bu, güvenlik açıkları arasında      önceliklendirme yapmanızı sağlar.*
+  
   *Saldırı ve Savunma Yöntemleri Önerileri Sunma: Tespit edilen risklere ve zafiyetlere dayanarak, bunlardan faydalanmak için hem saldırı senaryolarını hem de gidermek için önerilen savunma mekanizmalarını         sunar. Bu, kullanıcıların güvenlik duruşlarını iyileştirmelerine yardımcı olan pratik rehberlik sağlar.*
+  
   *Risk Skoru Verme: Son olarak, yazılımınız tespit edilen güvenlik açıklarının ciddiyetine göre bir risk skoru atar. Bu skor, genel güvenlik seviyesini özetleyerek kullanıcıların mevcut durumlarını hızlıca        anlamalarını ve gerekli aksiyonları almalarını kolaylaştırır.*
   
 ---
