@@ -116,9 +116,10 @@ python analyzer.py
 3. Check output (*explain where to find results*).  
 
 *Adımlar*:  
-1. Giriş verilerini hazırlayın (*ne tür verilere ihtiyaç duyulduğunu açıklayın*).  
-2. Betiği argümanlarla çalıştırın (*önemli argümanları açıklayın*).  
-3. Çıktıyı kontrol edin (*sonuçları nerede bulacağınızı açıklayın*).
+1. Analizlerin hangi amaçla (Saldırı/ Savunma) gerçekleştirilmesini istediğinizi seçin.
+2. Giriş verilerini hazırlayın (*URL veya IP adresi bilgilerini girin. IP adresini bilmiyorsanız da URL girilmesi analizlerin yapılabilmesi için yeterlidir. IP adresi URL üzerinden de tespit edilmektedir*).  
+3. Betiği argümanlarla çalıştırın (*python analyzer.py --mod saldiri --hedef example.com veya analyzer.py --mod savunma --hedef 192.168.1.1/24). 
+4. Çıktıyı kontrol edin (*PDF ve TXT formatında oluşturulan raporu kontrol edin. Ayrıca detaylı bilgi için tutulan LOG kayıtlarını da inceleyebilirsiniz.*).
 
 ---
 
