@@ -12,9 +12,12 @@
 </p>
 
 # Analyzer
-  
-Güvenli Gelecek Burada: Web Sitenizi Her Açıdan Analiz Edin!
-Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web sitenizi ya da kullandığınız cihazları URL veya IP adresleri üzerinden derinlemesine analiz ederek hem saldırı vektörlerini tespit edebilir hem de savunma mekanizmalarınızı güçlendirebilirsiniz. Geleceğin siber güvenlik ihtiyaçlarına bugünden hazırlanın!
+
+Bu projenin temel hedefi, siber güvenlik zafiyetlerini proaktif bir şekilde belirleyerek sistemlerin ve ağların güvenliğini artırmaktır. Amacı, hem sızma testi uzmanlarına hem de sistem yöneticilerine, belirlenen hedefler üzerindeki potansiyel güvenlik açıklarını hızlı ve etkili bir şekilde analiz etme yeteneği sunmaktır. Çeşitli popüler güvenlik araçlarını (Nmap, Nikto, Gobuster, WPScan, SSLScan, ARP-scan, Whois) tek bir çatı altında toplayarak tarama sürecini otomatize eder ve basitleştirir.
+
+Proje, yalnızca zafiyet tespitiyle kalmaz; aynı zamanda bulunan zafiyetlere yönelik potansiyel saldırı yöntemleri ve bu zafiyetleri gidermek için alınması gereken somut savunma önlemleri hakkında da pratik öneriler sunar. Risk puanlaması ile güvenlik durumunun genel bir değerlendirmesini sağlar. Elde edilen tüm verileri düzenli bir metin dosyasına ve profesyonel bir PDF raporuna dönüştürerek, güvenlik denetimlerinin belgelendirilmesini ve paylaşılmasını kolaylaştırır. Özellikle güvenlik bilinci düşük veya teknik bilgiye sahip olmayan kullanıcılar için anlaşılır raporlar sunarak, güvenlik önlemlerinin alınmasını teşvik etmeyi amaçlar. Bu sayede, kurumların veya bireylerin siber saldırılara karşı daha dirençli olmalarına yardımcı olur.
+
+Asansör Cümlemiz : Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web sitenizi ya da kullandığınız cihazları URL veya IP adresleri üzerinden derinlemesine analiz ederek hem saldırı vektörlerini tespit edebilir hem de savunma mekanizmalarınızı güçlendirebilirsiniz. Geleceğin siber güvenlik ihtiyaçlarına bugünden hazırlanın!
 
 ---
 
