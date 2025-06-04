@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
+![analyzer_logo](https://github.com/user-attachments/assets/c186e04f-af8c-4869-a4bf-4ec5518222a6)
+
 # Analyzer
   
 Güvenli Gelecek Burada: Web Sitenizi Her Açıdan Analiz Edin!
