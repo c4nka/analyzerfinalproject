@@ -66,8 +66,8 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 1. **Clone the Repository / *Depoyu Klonlayın***:  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
+   git clone https://github.com/c4nka/analyzerfinalproject.git
+   cd analyzerfinalproject
    ```
 
 2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
