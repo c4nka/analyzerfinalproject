@@ -7,8 +7,7 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-![Gemini_Generated_Image_fbzijlfbzijlfbzi](https://github.com/user-attachments/assets/cb0e60b2-5982-4c8f-b413-8d2f420eaf02)
-<img src="[https://github.com/user-attachments/assets/cb0e60b2-5982-4c8f-b413-8d2f420eaf02]" width="500" height="500">
+<img src="[c4nka/analyzerfinalproject/assets/analyzer_logov1.png]" width="500" height="500">
 
 # Analyzer
   
