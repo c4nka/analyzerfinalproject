@@ -17,7 +17,7 @@ Bu projenin temel hedefi, siber güvenlik zafiyetlerini proaktif bir şekilde be
 
 Proje, yalnızca zafiyet tespitiyle kalmaz; aynı zamanda bulunan zafiyetlere yönelik potansiyel saldırı yöntemleri ve bu zafiyetleri gidermek için alınması gereken somut savunma önlemleri hakkında da pratik öneriler sunar. Risk puanlaması ile güvenlik durumunun genel bir değerlendirmesini sağlar. Elde edilen tüm verileri düzenli bir metin dosyasına ve profesyonel bir PDF raporuna dönüştürerek, güvenlik denetimlerinin belgelendirilmesini ve paylaşılmasını kolaylaştırır. Özellikle güvenlik bilinci düşük veya teknik bilgiye sahip olmayan kullanıcılar için anlaşılır raporlar sunarak, güvenlik önlemlerinin alınmasını teşvik etmeyi amaçlar. Bu sayede, kurumların veya bireylerin siber saldırılara karşı daha dirençli olmalarına yardımcı olur.
 
-Asansör Cümlemiz : Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web sitenizi ya da kullandığınız cihazları URL veya IP adresleri üzerinden derinlemesine analiz ederek hem saldırı vektörlerini tespit edebilir hem de savunma mekanizmalarınızı güçlendirebilirsiniz. Geleceğin siber güvenlik ihtiyaçlarına bugünden hazırlanın!
+Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web sitenizi ya da kullandığınız cihazları URL veya IP adresleri üzerinden derinlemesine analiz ederek hem saldırı vektörlerini tespit edebilir hem de savunma mekanizmalarınızı güçlendirebilirsiniz. Geleceğin siber güvenlik ihtiyaçlarına bugünden hazırlanın!
 
 ---
 
