@@ -98,9 +98,7 @@ Run the project:
 *Projeyi çalıştırın:*
 
 ```bash
-cd /DosyaKonumu
-cd /Dosya
-python dosya_adi.py
+python main.py --input your_file.pcap --output results.txt
 ```
 
 **Steps**:  
