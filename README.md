@@ -56,8 +56,7 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 | Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
 |-------------------------|-----------------------------------------|------------------------------------------------|
-| NMAP Paketi 
-  Derinlemesine Analiz    | [researchs/nmap.md](researchs/nmap.md) | In-depth analysis of NMAP suite. / *NMAP paketinin derinlemesine analizi.* |
+| NMAP Paketi Analiz      | [researchs/nmap.md](researchs/nmap.md) | In-depth analysis of NMAP suite. / *NMAP paketinin derinlemesine analizi.* |
 | Example Research Topic  | [researchs/nmap.md](researchs/nmapozet.md) | Brief overview of this research. / *Bu araştırmanın kısa bir özeti.* |
 
 ---
