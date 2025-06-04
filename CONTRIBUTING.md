@@ -4,7 +4,7 @@
 
 Bu belge, "Siber Güvenlik Tarama Aracı" projesindeki Python kodunun yazımında takip edilmesi gereken kuralları ve en iyi uygulamaları tanımlar. Bu standartlara uymak, kod kalitesini artırır, hata oranını düşürür ve gelecekteki bakımı kolaylaştırır.
 
-### 1. Genel Kurallar ve PEP 8 Uyumu
+## 1. Genel Kurallar ve PEP 8 Uyumu
 
 * **Maximum Satır Uzunluğu:** Satırlar 79 karakteri geçmemelidir. Bu, kodun küçük ekranlarda veya yan yana pencerelerde okunmasını kolaylaştırır.
 * **Boş Satırlar:**
