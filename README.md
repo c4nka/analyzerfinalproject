@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-<img src="[c4nka/analyzerfinalproject/assets/analyzer_logov1.png]" width="500" height="500">
+<img src="[assets/analyzer_logov1.png](assets/analyzer_logov1.png)" width="500" height="500">
 
 # Analyzer
   
