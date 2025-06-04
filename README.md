@@ -10,7 +10,7 @@
 # Analyzer
   
 Güvenli Gelecek Burada: Web Sitenizi Her Açıdan Analiz Edin!
-Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web sitenizi ve URL'lerinizi derinlemesine analiz ederek hem saldırı vektörlerini tespit edebilir hem de savunma mekanizmalarınızı güçlendirebilirsiniz. Geleceğin siber güvenlik ihtiyaçlarına bugünden hazırlanın!
+Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web sitenizi ya da kullandığınız teknolojik cihazları URL ve IP adresleri üzerinden derinlemesine analiz ederek hem saldırı vektörlerini tespit edebilir hem de savunma mekanizmalarınızı güçlendirebilirsiniz. Geleceğin siber güvenlik ihtiyaçlarına bugünden hazırlanın!
 
 ---
 
