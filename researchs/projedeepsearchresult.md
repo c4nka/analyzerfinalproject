@@ -1,6 +1,6 @@
-Siber Sınırı Gezinmek: URL ve IP Tabanlı Sistemler İçin 2025 Yılında Saldırı ve Savunma Analizi Alanındaki En Son 10 Trend
+## Siber Sınırı Gezinmek: URL ve IP Tabanlı Sistemler İçin 2025 Yılında Saldırı ve Savunma Analizi Alanındaki En Son 10 Trend
 
-I. Giriş: 2025'te Siber Analizin Gelişen Manzarası
+**I. Giriş: 2025'te Siber Analizin Gelişen Manzarası**
 
 2025 yılına girerken, siber güvenlik ortamı, "hız farkı" olarak adlandırılan bir durumla karakterize edilmektedir; burada, genellikle saldırgan tarafın yapay zeka (YZ) kullanımıyla yönlendirilen gerçek zamanlı tehdit evrimi, statik güvenlik test döngülerini geride bırakarak artan bir risk yaratmaktadır.(1) Siber suç maliyetlerinin 2025 yılına kadar yıllık 10,5 trilyon dolara ulaşması beklenmekte olup, veri ihlallerinin %80'inden fazlası giderilmemiş güvenlik açıklarından kaynaklanmaktadır.(2) Tehditlerin bu giderek artan karmaşıklığı, kuruluşların siber saldırılara karşı daha dirençli olmalarını sağlamak için gelişmiş araçlar ve proaktif stratejiler benimsemelerini zorunlu kılmaktadır.
 
@@ -8,9 +8,9 @@ Bu bağlamda, URL ve IP adresleri aracılığıyla siber güvenlik zafiyetlerini
 
 Bu rapor, URL ve IP adresleri aracılığıyla saldırı ve savunma analizi alanındaki en etkili 10 tekniği ve trendi derinlemesine incelemeyi amaçlamaktadır. Her bir trendin mekanizmalarını, önemini, potansiyel etkilerini ve uygulama alanlarını detaylandırarak, gelişmiş siber güvenlik programlarının geliştirilmesi için stratejik yönlendirme sağlamayı hedeflemektedir.
 
-II. Siber Savunma ve Saldırıda Yapay Zeka Devrimi
+**II. Siber Savunma ve Saldırıda Yapay Zeka Devrimi**
 
-1. YZ/Makine Öğrenimi Destekli Tehdit Tespiti ve Otomatik Yanıt
+**1. YZ/Makine Öğrenimi Destekli Tehdit Tespiti ve Otomatik Yanıt**
    
 Yapay Zeka (YZ) ve Makine Öğrenimi (ML) modelleri, siber güvenlikte gelişmiş tehdit tespitinin ön saflarında yer almaktadır. Bu teknolojiler, bilinen ve potansiyel olarak bilinmeyen siber tehditleri gösteren anormal aktiviteleri ve davranışsal modelleri gerçek zamanlı olarak analiz etmek için muazzam veri kümelerini işlemektedir. Bu yetenek, olaylara daha hızlı ve otomatik yanıtlar verilmesini sağlamaktadır.(3)
 
@@ -23,7 +23,7 @@ Saldırganlar, daha kaçamak kötü amaçlı yazılımlar oluşturmak, ikna edic
 YZ'nin siber güvenlikteki çift yönlü doğası, yani saldırganların YZ'yi daha kaçamak kötü amaçlı yazılımlar, deepfake'ler ve sofistike kimlik avı kampanyaları oluşturmak için kullanması, savunmacıların da YZ destekli araçlarla yanıt vermesini zorunlu kılmaktadır. Bu durum, tehditlerin YZ tarafından yönlendirilen hızlı evriminin statik güvenlik önlemlerini geride bıraktığı bir "hız farkı" yaratmaktadır.1 Bu durum, güvenlikte dinamik ve giderek tırmanan bir çatışmaya işaret etmektedir. Bu, programın sadece YZ'yi entegre etmekle kalmayıp, aynı zamanda sürekli öğrenme, hızlı adaptasyon ve yeni tespit ve yanıt modellerinin çevik bir şekilde dağıtılması için tasarlanması gerektiği anlamına gelmektedir. Programın YZ yetenekleri, saldırgan YZ'si kadar hızlı evrimleşebilmelidir. Ayrıca, insan liderliğindeki yanıtların YZ destekli saldırılara karşı çok yavaş kalacağı gerçeği, program içinde otomatik yanıt mekanizmalarının kritik önemini pekiştirmektedir.
 YZ'nin siber güvenlikte reaktiften proaktif bir yaklaşıma geçişteki rolü de dikkat çekicidir. Proaktif bir güvenlik zihniyetinin benimsenmesi vurgulanmaktadır.3 YZ ve makine öğrenimi kullanılarak "öngörücü güvenlik" kavramı, zafiyetleri ve saldırı vektörlerini saldırganlar bunları istismar etmeden önce belirlemeyi amaçlamaktadır.(4) YZ'nin güvenlik araçlarının "tehditleri önceden tespit etmesini" sağlaması (5), siber güvenlik stratejisinde temel bir değişime işaret etmektedir. Bu, YZ'nin sadece mevcut saldırıların daha hızlı tespit edilmesiyle ilgili olmadığı, aynı zamanda gelecekteki olayları tahmin etme ve önleme yeteneğiyle ilgili olduğu anlamına gelmektedir. Kullanıcının programı, yalnızca mevcut zafiyetleri belirlemeye odaklanmakla kalmamalı, aynı zamanda gözlemlenen kalıplara, geçmiş verilere ve gerçek zamanlı tehdit istihbaratına dayanarak potansiyel gelecekteki saldırı vektörlerini tahmin etmeye de odaklanmalıdır. Bu, belirli bir zafiyet yaygın olarak istismar edilmeden önce bile önleyici eylemler veya güçlendirme önlemleri önerebilir ve geleneksel imza tabanlı tespitin ötesine geçerek gerçekten anticipatif bir savunma sağlayabilir.
 
-3. Ajan YZ ve Otonom Güvenlik Ajanları
+**3. Ajan YZ ve Otonom Güvenlik Ajanları**
    
 "Ajan YZ", geleneksel YZ yardımcı pilotlarından önemli bir evrimi temsil eden, bağımsız kararlar alabilen ve çok adımlı görevleri sürekli insan gözetimi olmadan yürütebilen yeni nesil otonom YZ ajanlarını ifade etmektedir.(8) Bu akıllı ajanlar, sistemleri otonom olarak izleyebilir, anormallikleri tespit edebilir ve tehditlere gerçek zamanlı olarak yanıt verebilir. Tehditler ve riskler ortaya çıktıkça gerçek zamanlı bağlam oluşturmak üzere tasarlanmıştır, bu da kullanıcıların beklenmedik olayları hızla anlamalarını ve yanıt vermelerini sağlamaktadır.(8)
 
@@ -35,9 +35,9 @@ Ajan YZ'nin otonom karar alma yeteneği, siber güvenlikte önemli bir gelişmey
 
 Ajan YZ'nin sistemleri otonom olarak izleme ve anormallikleri tespit etme yeteneği 8, Saldırı Yüzeyi Yönetimi (ASM)'nin sürekli izleme ve otomatik keşif yönleriyle doğrudan uyumludur.(15) Ajanlar, varlıkları (URL'ler ve IP'ler dahil) sürekli olarak keşfeder, haritalar ve değerlendirirse, ASM girişimlerinin hızını ve kapsamlılığını önemli ölçüde artırabilir. Bu durum, kullanıcının programının URL ve IP aralıklarında sürekli, otonom keşif ve zafiyet tespiti yapmak için ajan YZ'den stratejik olarak yararlanabileceği anlamına gelmektedir. Bu yetenek, kuruluşun saldırı yüzeyi haritasına gerçek zamanlı güncellemeler sağlayarak, yeni potansiyel giriş noktalarını veya mevcut olanlardaki değişiklikleri geleneksel yöntemlerden çok daha hızlı bir şekilde belirleyecektir. Bu, programı anlık bir tarayıcıdan dinamik bir saldırı yüzeyi istihbarat platformuna yükseltecektir.
 
-III. Gelişen Zafiyet Yönetimi ve Sızma Testi Paradigmları
+**III. Gelişen Zafiyet Yönetimi ve Sızma Testi Paradigmları**
 
-5. YZ Destekli Önceliklendirme ile Sürekli Zafiyet Yönetimi (CVM)
+**5. YZ Destekli Önceliklendirme ile Sürekli Zafiyet Yönetimi (CVM)**
    
 Sürekli Zafiyet Yönetimi (CVM), periyodik zafiyet taramasından kuruluşun sistemleri, ağları ve uygulamalarının sürekli, gerçek zamanlı izlemesine temel bir geçişi temsil etmektedir. Bu, tespit edilen zafiyetleri yalnızca genel ciddiyet puanlarına göre değil, aynı zamanda gerçek dünya istismar edilebilirliği, iş operasyonları için kritikliği ve potansiyel iş etkisi temelinde önceliklendirmek için YZ ve makine öğrenimini kritik bir şekilde kullanmaktadır.(2)
 CVM araçları, yeni zafiyetleri sürekli olarak tarayarak güvenlik sorunlarının ortaya çıktıkça tespit edilmesini ve anında ele alınmasını sağlamaktadır. Bu araçlar, Güvenlik Bilgileri ve Olay Yönetimi (SIEM) platformları ve biletleme sistemleri gibi mevcut BT ekosistemleriyle sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır. YZ algoritmaları, en yüksek gerçek riski oluşturan zafiyetleri belirlemek için büyük miktarda tehdit istihbaratı ve bağlamsal veriyi analiz ederek eyleme geçirilebilir ve kolaylaştırılmış düzeltme adımları sağlamaktadır.(2)
@@ -50,7 +50,7 @@ Siber tehditlerin giderek sofistike ve sık hale gelmesi ve veri ihlallerinin %8
 
 14'te "Siber Dirençlilik—siber tehditleri öngörme, bunlara dayanma ve bunlardan kurtulma yeteneği" vurgulanmaktadır. CVM, sürekli izleme, zafiyetlerin gerçek zamanlı tespiti ve öncelikli düzeltme yetenekleriyle 2 bu direncin oluşturulmasına doğrudan katkıda bulunmaktadır. Saldırı yüzeyini sürekli olarak azaltarak ve kritik kusurları proaktif bir şekilde ele alarak, kuruluşlar doğal olarak daha sağlam hale gelmekte ve siber saldırılara karşı daha iyi dayanma ve kurtarma yeteneği kazanmaktadır. Programın "savunma önerileri" sadece bireysel zafiyetleri düzeltmekle kalmamalı, aynı zamanda tespit edilen sorunların kuruluşun genel siber direncine nasıl katkıda bulunduğuna veya onu nasıl olumsuz etkilediğine dair rehberlik sağlamalıdır. Bu, daha geniş, bütünsel bir direnç stratejisiyle uyumlu mimari değişiklikler, politika uygulamaları veya diğer güvenlik araçlarıyla 17 entegrasyonlar önermeyi içerebilir ve böylece kullanıcıya daha stratejik bir değer sunabilir.
 
-Tablo 1: 2025 Yılında Siber Güvenlikteki En Önemli 10 Trend (Özet)
+**Tablo 1: 2025 Yılında Siber Güvenlikteki En Önemli 10 Trend (Özet)**
 
 Bu tablo, tespit edilen en önemli 10 trende ilişkin kısa ve üst düzey bir genel bakış sunarak, özellikle raporun kapsamını hızlıca anlamak isteyen okuyucular için hızlı bir referans noktası görevi görmektedir.
 
@@ -69,7 +69,7 @@ Bu tablo, kullanıcının programının yetenekleriyle uyumlu mevcut ve gelişme
 | YZ Destekli Sosyal Mühendislik Savunması | YZ ve ML'yi kullanarak deepfake'ler ve gelişmiş kimlik avı gibi sofistike sosyal mühendislik saldırılarını tespit etme. | İnsan hatasını azaltır, YZ destekli aldatmacalara karşı çalışanları korur ve farkındalığı artırır. | Bölüm V.9 |
 | Bulut Güvenlik Duruşu Yönetimi (CSPM) ve Buluta Özgü Güvenlik | Bulut altyapısını korumak, yanlış yapılandırmaları belirlemek ve uyumluluğu sağlamak için otomatik görünürlük ve sürekli izleme. | Bulut ortamlarındaki yaygın yanlış yapılandırma tabanlı ihlalleri önler ve kuruluşların sorumluluklarını netleştirir. | Bölüm V.10 |
 
-7. Gelişmiş Sızma Testi: YZ Destekli ve Sürekli Entegrasyon
+**7. Gelişmiş Sızma Testi: YZ Destekli ve Sürekli Entegrasyon**
    
 Sızma testi (pentesting), geleneksel, periyodik ve genellikle manuel değerlendirmelerden, yazılım geliştirme yaşam döngüsüne (CI/CD boru hatları) derinlemesine entegre edilmiş daha sürekli, dinamik ve YZ destekli bir sürece doğru evrilmektedir.1 YZ, zafiyet taraması, bulguların önceliklendirilmesi ve detaylı rapor oluşturma gibi rutin ve tekrarlayan pentesting görevlerini otomatikleştirmektedir. YZ, belirli zafiyetleri belirlemede ve otomatik olarak istismar etmede bile yardımcı olabilir. Ancak, otomasyonun hala zorlandığı karmaşık zincirleme istismarları ortaya çıkarmak, derinlemesine API testi yapmak ve nüanslı bulut yanlış yapılandırmalarını belirlemek için insan uzmanlığı vazgeçilmez olmaya devam etmektedir.1 Sürekli sızma testi, geliştiricilere gerçek zamanlı geri bildirim sağlamak için güvenlik testlerini ve analizlerini doğrudan CI/CD boru hatlarına yerleştirmeyi içermektedir.(1)
 
@@ -80,7 +80,7 @@ YZ'nin sızma testindeki rolünü vurgulayan 1 ve 19'ye rağmen, 1 kritik bir ka
 
 1'de "2025'te, CI/CD boru hatlarıyla uyumlu sürekli sızma testine geçişin sessizce yeni standart haline geldiği" belirtilmektedir. Bu, "yazılım tedarik zincirinizde koruyucu önlemler dağıtın" ve "SDLC'nizi güvence altına alın" konularını tartışan 22 tarafından doğrudan desteklenmektedir. Bu durum, güçlü bir nedensel ilişki kurmaktadır: sürekli güvenlik doğrulama (sızma testi aracılığıyla) ihtiyacı, kuruluşları daha olgun bir DevSecOps modeline doğru iten birincil etkenlerden biridir; burada güvenlik, dağıtım sonrası bir denetim olmaktan ziyade, geliştirme boru hattının her aşamasına "sol kaydırma" yaklaşımıyla entegre edilmektedir. URL'leri ve IP'leri analiz eden bir program için bu trend, API öncelikli ilkeler ve sağlam entegrasyon yetenekleriyle tasarlanması gerektiği anlamına gelmektedir. Web uygulamalarına ve API'lere yapılan yeni dağıtımları veya değişiklikleri otomatik olarak taramak için CI/CD boru hatlarına kolayca dahil edilebilecek modüler bileşenler veya API'ler sunmalı ve geliştiricilere anında güvenlik geri bildirimi sağlamalıdır. Bu stratejik entegrasyon, programı bağımsız bir tarama aracından, kuruluşun güvenli yazılım geliştirme yaşam döngüsünün ayrılmaz bir parçasına dönüştürecektir.
 
-Tablo 2: Siber Güvenlikte Temel YZ/ML Uygulamaları (Detaylı)
+**Tablo 2: Siber Güvenlikte Temel YZ/ML Uygulamaları (Detaylı)**
 
 Bu tablo, Yapay Zeka (YZ) ve Makine Öğreniminin (ML) çeşitli siber güvenlik alanlarında nasıl özel olarak uygulandığına dair kapsamlı ve detaylı bir genel bakış sunmaktadır. YZ'nin faydalarını somut örneklerle açıklayarak, kullanıcının program geliştirmesi için eyleme geçirilebilir bilgiler sağlamayı amaçlamaktadır.
 
@@ -97,9 +97,9 @@ Kötü Amaçlı Yazılım Analizi	Yeni ve gelişen kötü amaçlı yazılım tü
 Bulut Güvenlik Duruşu Yönetimi (CSPM)	Bulut yapılandırmalarını sürekli olarak izler ve yanlış yapılandırmaları otomatik olarak tespit eder.	Yanlış yapılandırma tabanlı ihlalleri önler, uyumluluğu sağlar ve bulut güvenlik duruşunu güçlendirir.	(5)
 Kimlik ve Erişim Yönetimi (IAM)	Kullanıcı ve makine kimliklerindeki anormal davranışları (olağandışı oturum açma, erişim kalıpları) tespit eder.	Kimlik tabanlı ihlalleri önler, ayrıcalıklı erişimi yönetir ve Sıfır Güven ilkelerini destekler.	(5)
 
-IV. Bütünsel Güvenlik Duruşu ve Temel Değişimler
+**IV. Bütünsel Güvenlik Duruşu ve Temel Değişimler**
 
-5. Saldırı Yüzeyi Yönetimi (ASM) ve Maruz Kalma Yönetimi
+**5. Saldırı Yüzeyi Yönetimi (ASM) ve Maruz Kalma Yönetimi**
    
 Saldırı Yüzeyi Yönetimi (ASM), bir kuruluşun tüm dijital ayak izini (web siteleri, bulut hizmetleri ve genel API'ler gibi harici varlıklar ile veritabanları ve bağlı cihazlar gibi dahili varlıklar dahil) tanımlamaya, değerlendirmeye ve izlemeye odaklanan sürekli bir süreçtir. Bu süreç, potansiyel siber tehditlere karşı koruma sağlamayı amaçlamaktadır. Maruz Kalma Yönetimi ise ASM'yi temel alarak, tanımlanan zafiyetlerden hangilerinin tehdit aktörleri tarafından gerçekten istismar edilebilir olduğunu belirler ve böylece teorik risklerin ötesine geçerek gerçek saldırı maruziyetini değerlendirir.(15)
 
@@ -113,7 +113,7 @@ Günümüzün karmaşık, hibrit ortamlarında, varlıkların çoğalması, silo
 
 15, "en az ayrıcalık ve tam zamanında erişim gibi sıfır güven ilkeleri"nin "tüm güvenlik duruşunuzu güçlendirme ve saldırı vektörlerinin sayısını azaltma" yolları olarak bahsetmektedir. 5 ve 14 da Sıfır Güven Mimarisi (ZTA)'nın artan benimsenmesini vurgulamaktadır. ZTA'nın temel bir ilkesi, bilmediğiniz şeye güvenemeyeceğinizdir. Bu nedenle, ZTA'yı etkili bir şekilde uygulamak için bir kuruluşun öncelikle ortamında hangi varlıkların (URL'ler/IP'ler, kullanıcılar, cihazlar ve insan dışı kimlikler dahil) bulunduğunu ve nasıl birbirine bağlı olduklarını kapsamlı bir şekilde anlaması gerekir. Bu temel anlayış ve varlık haritalaması, tam olarak ASM'nin sağladığı şeydir. Programın URL'ler ve IP'ler üzerindeki bulguları ve ilişkili zafiyetleri, Sıfır Güven politikalarını bilgilendirmek ve uygulamak için kritik girdilerdir. Örneğin, program kritik bir zafiyete sahip genel bir URL veya IP tespit ederse, Sıfır Güven ilkeleri, zafiyet giderilene kadar bu varlık etrafında anında, daha katı erişim kontrolleri veya ağ segmentasyonu gerektirecektir. Program, tarama sonuçlarına dayanarak ZTA politika ayarlamaları için önerilerde bulunabilir ve böylece ZTA uygulaması için eyleme geçirilebilir istihbarat sağlayabilir.
 
-8. URL/IP Erişimi ve Ötesi İçin Sıfır Güven Mimarisi (ZTA)
+**8. URL/IP Erişimi ve Ötesi İçin Sıfır Güven Mimarisi (ZTA)**
    
 Sıfır Güven Mimarisi (ZTA), "asla güvenme, her zaman doğrula" ilkesine dayanan bir siber güvenlik modelidir. Bu, ağ çevresinin içinde veya dışında konumundan bağımsız olarak hiçbir kullanıcı, cihaz veya uygulamanın doğal olarak güvenilir olmadığı anlamına gelir. Belirli URL'lerden veya IP'lerden kaynaklanan veya bunları hedefleyenler de dahil olmak üzere tüm erişim girişimleri sürekli kimlik doğrulama ve yetkilendirme gerektirir.(3)
 
@@ -127,7 +127,7 @@ ZTA, kullanıcı kimliklerini (genellikle Çok Faktörlü Kimlik Doğrulama - MF
 
 14 ve 9, 2025'te kimlik güvenliğinin kritik yönleri olarak "insan dışı kimlikler (NHI'ler)" ve "makine kimliklerini yönetme"den açıkça bahsetmektedir. 8 ayrıca "ajan YZ ve makineden makineye iletişim gibi insan dışı kimlikler" hakkında ayrıntılı bilgi vermektedir. Bu, ZTA uygulaması için daha derin bir karmaşıklık katmanını ortaya koymaktadır: artık sadece insan kullanıcıları güvence altına almakla kalmayıp, aynı zamanda kuruluş kaynaklarına erişen ve onlarla etkileşim kuran çok sayıda otomatik süreç, IoT cihazı, bulut iş yükü ve YZ ajanını da yönetmeyi içermektedir. Programın, URL'ler/IP'ler aracılığıyla etkileşime girebilecek veya maruz kalabilecek İnsan Dışı Kimliklerin (NHI'ler) güvenliğini nasıl analiz edeceğini ve raporlayacağını değerlendirmesi gerekmektedir. Bu, yönetilmeyen veya güvensiz API anahtarlarını, güvensiz makineden makineye iletişim kanallarını veya URL/IP erişimli arayüzlere sahip yanlış yapılandırılmış bulut hizmeti hesaplarını belirlemeyi içerebilir. Programın "savunma önerileri", saldırı yüzeyindeki artan rolleri göz önünde bulundurarak bu NHI'leri Sıfır Güven ilkeleri altında güvence altına almak için özel rehberlik sağlamayı içermelidir.
 
-10. YZ Destekli Tehdit Tespiti ile Gelişmiş API Güvenliği
+**10. YZ Destekli Tehdit Tespiti ile Gelişmiş API Güvenliği**
     
 Uygulama Programlama Arayüzleri (API'ler), siber suçlular için hızla birincil saldırı vektörü haline geldiğinden, API'lerin güvenliğine özel ve giderek kritikleşen bir odaklanma söz konusudur. Bu trend, sağlam kimlik doğrulama, ayrıntılı yetkilendirme, sıkı giriş doğrulaması ve gerçek zamanlı anomali tespiti ve otomatik yanıtlar için YZ'den yararlanmayı içermektedir.(1)
 
@@ -141,10 +141,10 @@ API trafiği, 2025'te ilk kez web trafiğini geride bırakarak API'leri siber sa
 
 21, temel API güvenlik trendleri olarak "API'ler için Sıfır Güven," "YZ Destekli Tehdit Tespiti" ve "Kod Olarak API Güvenliği"ni listelemektedir. Bu trendler izole değildir, aksine Sıfır Güven Mimarisi 5, yaygın YZ destekli güvenlik 3 ve DevSecOps'un "Sol Kaydırma" yaklaşımı 1 gibi daha geniş, genel siber güvenlik trendlerini doğrudan yansıtmaktadır. Bu güçlü tematik uyum, API güvenliğinin izole bir alan olmadığını, aksine daha geniş siber güvenlik ortamında meydana gelen en önemli gelişmelerin ve zorlukların ayrılmaz bir parçası ve yansıması olduğunu göstermektedir. Programın mimari tasarımı bu yakınlaşmayı yansıtmalıdır. API tarama modülü, bağımsız bir özellik olmaktan ziyade, anomali tespiti için YZ/ML yetenekleriyle ve Sıfır Güven uyumluluğunu değerlendirmek için raporlama mekanizmalarıyla sıkı bir şekilde entegre olmalıdır. Program ayrıca "Kod Olarak API Güvenliği" şablonları sağlayabilir veya geliştiricilerin API geliştirme yaşam döngüsünün erken aşamalarında güvenlik kontrollerini ve en iyi uygulamaları yerleştirmelerine yardımcı olmak için CI/CD boru hatlarıyla doğrudan entegrasyonlar sunabilir.
 
-V. Gelişen Tehditler ve Proaktif Savunma Stratejileri
+**V. Gelişen Tehditler ve Proaktif Savunma Stratejileri**
 
 12. Kuantum Dirençli Kriptografi Hazırlığı
-13. 
+    
 Bu trend, siber güvenlik topluluğu içinde, gelecekteki kuantum bilgisayarların saldırılarına dayanacak şekilde tasarlanmış yeni kriptografik algoritmalar geliştirmeye ve bunlara geçiş yapmaya yönelik proaktif, ileriye dönük bir çabayı temsil etmektedir. Bu kuantum bilgisayarlar, tam olarak hayata geçirildiklerinde, RSA ve ECC gibi şu anda yaygın olarak kullanılan birçok şifreleme yöntemini kırma teorik yeteneğine sahiptir.(7)
 
 Hazırlık, hem klasik hem de kuantum saldırılarına karşı güvenli olduğuna inanılan matematiksel yapılar olan kuantum sonrası kriptografik (PQC) algoritmalarını tanımayı ve aktif olarak uygulamayı içermektedir. Örnekler arasında kafes tabanlı kriptografi, hash tabanlı imzalar ve kod tabanlı kriptografi yer almaktadır. CISA gibi devlet kurumları, mevcut şifrelemeyi kırabilecek pratik, büyük ölçekli kuantum bilgisayarların hala yıllar uzakta olmasına rağmen, kritik altyapı sektörlerini bu kaçınılmaz değişime hazırlanmaya çağırmaktadır.(8)
@@ -155,7 +155,7 @@ Büyük ölçekli kuantum şifre çözme tehdidi 2025'te hemen gerçekleşmeyebi
 
 8, "şimdi topla, sonra şifresini çöz" kavramından açıkça bahsetmektedir. Bu, kritik bir nüanstır: kuantum bilgisayarlar 2025'te tam olarak çalışır durumda olmasa bile, saldırganlar bugün şifrelenmiş verileri yıllar sonra şifresini çözme niyetiyle topluyor olabilirler. Bu durum, gelecekteki teorik bir tehdidi, uzun ömürlü hassas veriler için mevcut bir riske dönüştürmektedir. Kullanıcının programı için, doğrudan kuantum şifre çözme analizi mümkün olmasa da, hassas verilerin kriptografik protokoller kullanılarak nerede iletildiğini veya depolandığını belirleyerek katkıda bulunabilir. Programın "savunma önerileri", kuruluşları kritik veriler için "kuantum hazırlıklarını" değerlendirmeye, özellikle URL'ler/IP'ler aracılığıyla maruz kalan uzun vadeli hassas bilgiler için, ve kuantum sonrası kriptografi benimsenmesi için plan yapmaya başlamaya teşvik etmeyi içerebilir. Bu, risk değerlendirmesine ileriye dönük bir boyut katmaktadır.
 
-15. YZ Destekli Sosyal Mühendislik Savunması
+**15. YZ Destekli Sosyal Mühendislik Savunması**
     
 Bu trend, deepfake'ler, YZ tarafından oluşturulan hedefli kimlik avı e-postaları ve vishing gibi giderek sofistike hale gelen sosyal mühendislik saldırılarını tespit etmek ve bunlara karşı koymak için YZ ve makine öğreniminden yararlanmayı içermektedir.3 YZ modelleri, deepfake'ler için piksel kalıplarını, ses modülasyonunu, dudak senkronizasyonunu ve kimlik avı için yazım stillerini analiz etmektedir. Tutarsızlıkları belirleyebilir ve davranışsal doğrulama sağlayabilirler. Kuruluşlar, çalışan eğitimine ve YZ destekli sosyal mühendislik için yeni tespit kontrollerine öncelik vermelidir.(3)
 
@@ -164,8 +164,8 @@ Siber suçlular, kimlik avı kampanyalarını otomatikleştirmek ve ikna edici d
 
 3'de "İnsan hatası, en önemli saldırı vektörü olmaya devam ediyor" ifadesi yer almaktadır. 7'de ise "insan unsuru en büyük" savunmasız saldırı yüzeylerinden biri olarak belirtilmektedir. 4, "Deepfake ve Sosyal Mühendislik Savunması"nı en önemli YZ trendlerinden biri olarak vurgulamaktadır. Bu durum, teknolojik gelişmelere rağmen insan faktörünün kritik bir zayıf nokta olmaya devam ettiğini ve YZ'nin bu zayıflığı daha etkili bir şekilde istismar etmek için silahlandırıldığını göstermektedir. Program, URL'lerin/IP'lerin teknik zafiyetlerine odaklanırken, "savunma önerileri" insan odaklı güvenliği de kapsamalıdır. Program, sosyal mühendislik taktikleriyle (örneğin, kimlik avı alan adları) yaygın olarak ilişkilendirilen URL'leri/IP'leri işaretleyebilir ve çalışanlar için YZ tarafından oluşturulan içerik risklerini vurgulayan sağlam güvenlik farkındalığı eğitimi önerebilir. Program ayrıca, insan direncini test etmek için simüle edilmiş kimlik avı saldırıları araçlarıyla entegre olabilir veya bu tür araçları önerebilir.
 
-17. Bulut Güvenlik Duruşu Yönetimi (CSPM) ve Buluta Özgü Güvenlik
-18. 
+**17. Bulut Güvenlik Duruşu Yönetimi (CSPM) ve Buluta Özgü Güvenlik**
+    
 Bulut Güvenlik Duruşu Yönetimi (CSPM), bulut altyapısını korumak, yanlış yapılandırmaları belirlemek ve uyumluluğu sağlamak için otomatik görünürlük ve sürekli izleme kullanan bir metodolojidir. Buluta özgü uygulamaları ve hizmetleri güvence altına almak için çok önemlidir.5 CSPM araçları, bulut yapılandırmalarını en iyi uygulamalara ve düzenlemelere karşı sürekli olarak değerlendirerek, yanlış yapılandırmaları (örneğin, yanlış atanmış izinler, konteynerlere genel erişim, MFA eksikliği) tespit eder. Risk görselleştirmesi sunar ve uyumluluğun otomasyonuna yardımcı olurlar. YZ ayrıca uyumluluğu otomatikleştirmede ve yanlış yapılandırmaları tespit etmede CSPM'ye yardımcı olmaktadır.(5)
 
 Bulut ortamları karmaşık ve dinamiktir, bu da yanlış yapılandırmaları veri ihlallerinin yaygın bir nedeni haline getirmektedir. Bulut zafiyetleri 1.8 kat artmıştır ve genellikle IAM yanlış adımları, anahtar sızıntıları veya zayıf varsayılan ayarlardan kaynaklanmaktadır. CSPM, bulut iş akışlarını güvence altına almak için yerel bulut sağlayıcılarından daha verimli araçlar sağlamaktadır.(1)
@@ -176,7 +176,7 @@ Bulut ortamları karmaşık ve dinamiktir, bu da yanlış yapılandırmaları ve
 
 1, paylaşılan sorumluluk modellerine rağmen, "suçun genellikle yanlış bir şekilde sağlayıcılara yüklendiğini" belirtmektedir. Ayrıca, "bulut uygulamalarını güvence altına almak, yığının kendi kısmına sahip olmak anlamına gelir" vurgusu yapmaktadır. Bu, kritik bir zorluğu ortaya koymaktadır: kuruluşlar genellikle bulut güvenliğindeki rollerini yanlış anlamakta ve bulut sağlayıcılarının her şeyi hallettiğini varsaymaktadır. CSPM, kuruluşlara bulut içindeki güvenlik duruşlarını yönetmeleri için araçlar sağlayarak bu durumu doğrudan ele almaktadır. Programın raporları, kullanıcılara paylaşılan sorumluluk modeli içindeki sorumluluklarını öğretmelidir. URL/IP analizi aracılığıyla bir bulut yanlış yapılandırması tespit edildiğinde, rapor zafiyeti açıkça kuruluşun yapılandırma seçimlerine atfetmeli, bulut sağlayıcısının platformuna değil, ve bu bağlamda nasıl düzeltileceğine dair özel rehberlik sağlamalıdır. Bu, bir sahiplenme kültürünün geliştirilmesine yardımcı olmaktadır.
 
-Tablo 3: Örnek Zafiyet Yönetimi ve Sızma Testi Araçları Manzarası
+**Tablo 3: Örnek Zafiyet Yönetimi ve Sızma Testi Araçları Manzarası**
 
 Bu tablo, kullanıcının programının yetenekleriyle uyumlu mevcut ve gelişmekte olan araçlar hakkında bağlam sağlamayı amaçlamaktadır. Programın daha geniş ekosisteme nasıl uyduğunu göstermekte ve kullanıcının programının birleştirdiği ve otomatikleştirdiği araç türlerini vurgulamaktadır.
 
@@ -207,7 +207,7 @@ Gelişen tehditler açısından, Kuantum Dirençli Kriptografi hazırlığı, pr
 
 Özetle, kullanıcının programı, yalnızca mevcut güvenlik araçlarını konsolide etmekle kalmayıp, aynı zamanda YZ'nin dönüştürücü gücünü, sürekli izleme paradigmalarını ve bütünsel güvenlik yaklaşımlarını entegre ederek 2025 ve sonrası için siber güvenlikte öncü bir çözüm haline gelmelidir. Bu entegrasyon, proaktif zafiyet tespiti, eyleme geçirilebilir savunma önerileri ve hem teknik hem de teknik olmayan kullanıcılar için anlaşılır raporlama sağlayarak, kuruluşların giderek daha karmaşık hale gelen siber tehditlere karşı dirençlerini önemli ölçüde artıracaktır.
 
-Alıntılanan çalışmalar
+**Alıntılanan çalışmalar**
 1.	Penetration Testing Trends 2025: Insights & Predictions, erişim tarihi Haziran 5, 2025, https://www.getastra.com/blog/security-audit/penetration-testing-trends/
 2.	Top 10 Vulnerability Scanning Tools – You Need to Know in 2025 - Qualysec Technologies, erişim tarihi Haziran 5, 2025, https://qualysec.com/vulnerability-scanning-tools/
 3.	Business growth through superior technology - BytePlus, erişim tarihi Haziran 5, 2025, https://www.byteplus.com/en/topic/514517
