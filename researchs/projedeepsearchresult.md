@@ -100,7 +100,7 @@ Kimlik ve Erişim Yönetimi (IAM)	Kullanıcı ve makine kimliklerindeki anormal 
 IV. Bütünsel Güvenlik Duruşu ve Temel Değişimler
 
 5. Saldırı Yüzeyi Yönetimi (ASM) ve Maruz Kalma Yönetimi
-6. 
+   
 Saldırı Yüzeyi Yönetimi (ASM), bir kuruluşun tüm dijital ayak izini (web siteleri, bulut hizmetleri ve genel API'ler gibi harici varlıklar ile veritabanları ve bağlı cihazlar gibi dahili varlıklar dahil) tanımlamaya, değerlendirmeye ve izlemeye odaklanan sürekli bir süreçtir. Bu süreç, potansiyel siber tehditlere karşı koruma sağlamayı amaçlamaktadır. Maruz Kalma Yönetimi ise ASM'yi temel alarak, tanımlanan zafiyetlerden hangilerinin tehdit aktörleri tarafından gerçekten istismar edilebilir olduğunu belirler ve böylece teorik risklerin ötesine geçerek gerçek saldırı maruziyetini değerlendirir.(15)
 
 ASM, tüm BT ortamını (bulut, şirket içi ve SaaS genelinde) haritalayarak varlıkların kapsamlı bir envanterini oluşturmayı, ilişkili riskleri sınıflandırmayı ve düzeltme çabalarını önceliklendirmeyi içerir. Dijital (örneğin, kusurlar, yanlış yapılandırmalar, API'ler, kod tabanları, YZ kaynakları), fiziksel (örneğin, uç noktalar, IoT cihazları) ve sosyal mühendislik unsurlarını kapsar. Bilinen ve bilinmeyen varlıkların sürekli izlenmesi ve otomatik keşfi, temel operasyonel yönlerdir.(15)
