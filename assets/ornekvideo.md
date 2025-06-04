@@ -1,3 +1,3 @@
-## Faydalı Video
+[Örnek Kullanıma İlişkin Videoyu Buradan İzleyin](https://youtu.be/yAQp96swbuM)
 
-<a href="https://youtu.be/yAQp96swbuM" target="_blank" rel="noopener noreferrer">Videoyu yeni sekmede aç</a>
+> 🔗 Not: Bağlantıyı yeni sekmede açmak için **CTRL + tıklayın** (veya sağ tıklayıp "yeni sekmede aç" deyin).
