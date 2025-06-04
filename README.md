@@ -7,12 +7,10 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-# Project Name
-*Analyzer*
-
-A brief, engaging description of your project.  
-*Güvenli Gelecek Burada: Web Sitenizi Her Açıdan Analiz Edin!
-Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web sitenizi ve URL'lerinizi derinlemesine analiz ederek hem saldırı vektörlerini tespit edebilir hem de savunma mekanizmalarınızı güçlendirebilirsiniz. Geleceğin siber güvenlik ihtiyaçlarına bugünden hazırlanın!*
+# Analyzer
+  
+Güvenli Gelecek Burada: Web Sitenizi Her Açıdan Analiz Edin!
+Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web sitenizi ve URL'lerinizi derinlemesine analiz ederek hem saldırı vektörlerini tespit edebilir hem de savunma mekanizmalarınızı güçlendirebilirsiniz. Geleceğin siber güvenlik ihtiyaçlarına bugünden hazırlanın!
 
 ---
 
