@@ -29,12 +29,8 @@ Siber saldırılar her geçen gün daha da karmaşıklaşıyor. Analyzer ile web
 
 ## Team / *Ekip*
 
-- **219*****031** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- **Another Member** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- Add more members as needed.  
-  *Gerektiğinde daha fazla üye ekleyin.*
+- 2420191006 - Raşit ÇANKAYA - Proje Sorumlusu
+- 2420191042 - Muhsin Murat Yaşar - Proje Sorumlusu 
 
 ---
 
@@ -133,10 +129,7 @@ Thanks to:
 
 ## Contact / *İletişim* (Optional)
 
-Project Maintainer: [Your Name/Org Name] - [your.email@example.com]  
-Found a bug? Open an issue.  
-
-*Proje Sorumlusu: [Adınız/Kuruluş Adınız] - [e-posta.adresiniz@ornek.com]. Hata bulursanız bir sorun bildirin.*
+*Proje Sorumlusu: Raşit Çankaya & Muhsin Murat Yasar - rasitcankayajob@gmail.com - Hata bulursanız bir sorun bildirin.*
 
 ---
 
