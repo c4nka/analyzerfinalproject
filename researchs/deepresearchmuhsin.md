@@ -43,7 +43,7 @@ Bu alandaki gelişmeler, Analyzer'ın geleneksel imza tabanlı tarama yöntemler
 
 Ayrıca, "normal" davranışın tanımlanması, IP ve URL trafiği için oldukça bağlamsal ve dinamik bir zorluktur. Bu durum, doğru bir tespit için önemli bir engel teşkil etse de, iç tehditlere ve gizli ihlallere karşı güçlü bir savunma mekanizması sunar.1 Analyzer'ın "risk puanlaması ile güvenlik durumunun genel bir değerlendirmesini sağlama" ve "siber bağlamıyla analizler gerçekleştirme" hedefleri göz önüne alındığında, bu bağlamsal "normalliği" tanımlama yeteneği büyük önem taşır. Örneğin, bir ağ yöneticisinin normal çalışma saatleri dışında hassas verilere erişmesi, belirli bir bağlamda meşru olabilirken, başka bir bağlamda şüpheli bir davranış olarak algılanabilir. Analyzer'ın YZ/ML yetenekleri, farklı kullanıcılar, cihazlar ve ağ segmentleri için bağlamsal "normalliği" öğrenme ve buna adapte olma konusunda yeterince sofistike olmalıdır. Bu, yanlış pozitifleri en aza indirmek ve gerçek anormallikleri doğru bir şekilde işaretlemek için sürekli öğrenme modellerine veya kullanıcı tanımlı temel çizgilere ihtiyaç duyulduğu anlamına gelir. 
 
-2. Büyük Dil Modeli (LLM) Destekli Tehdit İstihbaratı ve Analizi 
+**2. Büyük Dil Modeli (LLM) Destekli Tehdit İstihbaratı ve Analizi**
 
 Büyük Dil Modelleri (LLM'ler), büyük miktardaki ağ verilerini, tehdit istihbaratı akışlarını ve güvenlik günlüklerini gerçek zamanlı olarak işlemek ve analiz etmek için uyarlanmaktadır. Bu yetenek, anormalliklerin tespit edilmesini, metni kötü niyetli amaçlar açısından analiz ederek kimlik avı girişimlerinin belirlenmesini, olay müdahalesinde hafifletme stratejileri önermeyi ve hatta saldırı nedenlerini belirlemek için günlükleri ayrıştırarak siber adli bilişime yardımcı olmayı mümkün kılar.5 Ayrıca, kırmızı takım (red teaming) çalışmaları için saldırı örnekleri üretebilir ve Saldırı Tespit Sistemlerinin (IDS) sağlamlığını artırabilirler.6 
 
@@ -53,7 +53,7 @@ LLM'lerin bu alandaki kullanımı, Analyzer'ın statik zafiyet analizinin ötesi
 
 Ancak, LLM'ler güçlü savunma araçları olsalar da, kendileri de yeni zafiyetler (örneğin, istem enjeksiyonu, veri zehirlenmesi) sunmaktadır ve saldırganlar bu zafiyetleri istismar edebilirler.5 Bu durum, Analyzer'ın kendi LLM entegrasyonunun da güvenli olması gerektiği anlamına gelir. Eğer Analyzer LLM'leri entegre ederse, bu zafiyetler Analyzer'ın kendi sisteminin zafiyetleri haline gelebilir. Bir saldırgan, Analyzer'ın LLM'sini manipüle ederek yanlış pozitifler üretmesine, gerçek tehditleri gözden kaçırmasına veya hatta Analyzer sistemini ele geçirmesine neden olabilir. Bu nedenle, Analyzer'ın geliştirme ekibi, entegre edilen herhangi bir LLM için sağlam güvenlik önlemleri uygulamaya öncelik vermelidir. Bu, girdi doğrulama, çıktı temizleme ve modelin kendisine yönelik düşmanca saldırıları tespit etmek için LLM'nin davranışının ve performansının sürekli izlenmesini içermelidir. 
 
-3. Dinamik IP/URL Varlıkları için Sürekli Tehdit Maruziyeti Yönetimi (CTEM) 
+**3. Dinamik IP/URL Varlıkları için Sürekli Tehdit Maruziyeti Yönetimi (CTEM)**
 
 CTEM, siber güvenliği reaktif olay müdahalesinden, tehditlerin sürekli tanımlanması, değerlendirilmesi ve azaltılmasına yönelik proaktif bir yaklaşıma dönüştüren beş aşamalı bir metodolojidir (Kapsam Belirleme, Keşif, Önceliklendirme, Doğrulama, Mobilizasyon).9 Bu, bir kuruluşun dış saldırı yüzeyini ve SaaS güvenlik duruşunu sürekli olarak değerlendirmeyi, yalnızca CVE'lerin (Ortak Zafiyetler ve Maruziyetler) ötesinde varlıkları keşfetmeyi ve riskleri değerlendirmeyi (yanlış yapılandırmalar dahil), ve tehditleri yalnızca teknik puanlara göre değil, iş etkisi ve istismar edilebilirliğe göre önceliklendirmeyi içerir.10 
 
@@ -63,7 +63,7 @@ CTEM, Analyzer'ın operasyonel modelini, geleneksel Nmap/Nikto taramaları gibi 
 
 Zafiyetlerin önceliklendirilmesinde iş etkisi ve varlık kritikliğine yapılan vurgu 10, Analyzer'ın "risk puanlaması"nın yalnızca teknik CVSS puanlarının ötesine geçerek kurumsal bağlamı da içerecek şekilde evrilmesi gerektiğini göstermektedir. Analyzer'ın mevcut tanımında "Risk puanlaması ile güvenlik durumunun genel bir değerlendirmesini sağlar" ifadesi yer almaktadır. Eğer bu risk puanlaması sadece teknik ise, bir kuruluşun gerçek iş öncelikleriyle uyumlu olmayabilir. Bu durum, Analyzer'ın risk puanlama algoritmasının, kullanıcıların farklı varlıklar veya veri türleri için iş kritikliğini (örneğin, "crown jewels" olarak kabul edilen varlıklar, gelir için kritik uygulamalar, belirli hizmetler için kesinti süresinin etkisi) tanımlamasına ve girmesine izin verecek şekilde yapılandırılması gerektiğini gösterir. Çıktı, hem teknik ciddiyeti hem de iş etkisini yansıtan bir risk puanı sunmalı ve potansiyel olarak belirli bir zafiyetin kendi kuruluşları için neden kritik olduğunu açıklayan net bir anlatım içermelidir. Bu, Analyzer'ı teknik bir araçtan siber güvenlik için stratejik bir iş kolaylaştırıcıya dönüştürecektir. 
 
-4. YZ Otomasyonlu Gelişmiş Harici Saldırı Yüzeyi Yönetimi (EASM) 
+**4. YZ Otomasyonlu Gelişmiş Harici Saldırı Yüzeyi Yönetimi (EASM)**
 
 EASM, bir kuruluşun internete açık dijital varlıklarının sürekli olarak tanımlanması, izlenmesi ve azaltılması sürecidir. Bu, alan adlarını, IP adreslerini, web uygulamalarını ve bulut hizmetlerini içerir; bunların çoğu (gölge BT, üçüncü taraf hizmetleri veya yanlış yapılandırmalar nedeniyle) kuruluş tarafından bilinmeyebilir.12 EASM araçları, tüm dışa dönük altyapıyı haritalamak ve saldırganların istismar edebileceği potansiyel giriş noktalarını vurgulamak için keşif ve tarama gibi otomatik keşif süreçlerinden yararlanır.12 
 
@@ -73,7 +73,7 @@ EASM, Analyzer'ın yalnızca belirlenen hedefleri analiz etme kapsamının ötes
 
 Bu durum, Analyzer'ın EASM'nin keşif yeteneklerini (örneğin, pasif DNS numaralandırması, sertifika şeffaflık günlükleri, açık kaynak istihbarat toplama) proaktif olarak bir kuruluşun tüm harici dijital ayak izini, hatta farkında olmadıkları varlıkları bile keşfetmek ve haritalamak için entegre etmesi gerektiğini göstermektedir. Bu, Analyzer'ı yalnızca bir "zafiyet tarayıcısı" olmaktan çıkarıp, daha kapsamlı bir "saldırı yüzeyi keşif" aracına dönüştürecektir. Bu genişleme, Analyzer'ın sunduğu güvenlik değerlendirmelerinin kapsamını ve doğruluğunu önemli ölçüde artıracaktır. 
 
-5. Cihaz Duruş Değerlendirmesi ile Sıfır Güven Ağ Erişimi (ZTNA) 
+**5. Cihaz Duruş Değerlendirmesi ile Sıfır Güven Ağ Erişimi (ZTNA)**
 
 Sıfır Güven, "asla güvenme, her zaman doğrula" ilkesine dayanan kapsamlı bir siber güvenlik stratejisidir.7 ZTNA, tüm kullanıcıların, cihazların, uygulamaların ve hizmetlerin, uygulamalara ve verilere erişim izni verilmeden veya sürdürülmeden önce güvenlik duruşları açısından sürekli olarak kimlik doğrulaması ve doğrulanmasını gerektiren bir BT teknoloji çözümüdür.14 Bu yaklaşım, geleneksel çevre tabanlı modelden, erişimin yalnızca IP adreslerine değil, gelişmiş kimlik doğrulama tekniklerine dayandığı sıkı erişim kontrolleri ve en az ayrıcalık ilkesine geçişi temsil eder.15 Cihaz Duruş Değerlendirmesi, cihaz uyumluluğunu ve güvenlik duruşunu (örneğin, işletim sistemi/sensör yapılandırmaları, USB bağlantıları, Wi-Fi ağları) gerçek zamanlı olarak kontrol ederek koşullu erişim kararları için bir güven puanı oluşturan kritik bir bileşendir.16 
 
@@ -83,7 +83,7 @@ Sıfır Güven prensibi, güvenlik odağını ağ çevresini korumaktan (gelenek
 
 Bu durum, Analyzer'ın IP/URL etkileşimleri için kullanıcı ve cihaz bağlamını çekmek amacıyla kimlik sağlayıcılarla (örneğin, Okta, Azure AD) ve uç nokta yönetim çözümleriyle (örneğin, MDM, EDR) entegrasyonu hedeflemesi gerektiğini göstermektedir. Bu entegrasyon, Analyzer'ın yalnızca "bu IP'de açık bir port var" demek yerine, "bu IP, bu uyumsuz cihazdaki bu kullanıcı tarafından kullanılıyor ve açık bir portu var, bu da yüksek risk oluşturuyor" gibi daha ayrıntılı bilgiler sunmasını sağlayacaktır. Bu, Analyzer'ın risk değerlendirmesini ve savunma önerilerini önemli ölçüde yükseltecektir. 
 
-6. IP/URL İstihbaratı Yoluyla Geliştirilmiş Tedarik Zinciri Risk Yönetimi 
+**6. IP/URL İstihbaratı Yoluyla Geliştirilmiş Tedarik Zinciri Risk Yönetimi**
 
 Tedarik zinciri saldırıları hızlanmakta ve üçüncü taraf satıcılar, açık kaynaklı kütüphaneler ve ticari yazılım ikili dosyalarındaki zafiyetleri hedef alarak gelişmektedir.7 Bu, sızdırılmış geliştirici sırlarını (API anahtarları, kimlik bilgileri) ve ticari yazılımlardaki güvensiz tasarımları içermektedir. Üçüncü taraf ihlalleri, veri ihlallerinin ve fidye yazılımı saldırılarının birincil kaynağıdır.21 Tedarik Zinciri Risk Yönetimi (SCRM), harici varlıklardan kaynaklanan bu riskleri tanımlama, değerlendirme, izleme ve azaltma sürecidir. 
 
@@ -93,7 +93,7 @@ Tedarik zinciri risk yönetimi, kuruluşları (ve Analyzer'ı) doğrudan kontrol
 
 Bu durum, Analyzer'ın üçüncü taraf IP'leri ve URL'leri hakkında pasif istihbarat toplama yeteneklerini entegre etmesi gerektiğini göstermektedir. Bu, Analyzer tarafından doğrudan taranmasa bile, üçüncü taraf yazılım bileşenlerinin bilinen zafiyetleri için genel veritabanlarını sorgulamayı, ele geçirilmiş satıcı kimlik bilgileri için karanlık web'i izlemeyi veya üçüncü taraf risk yönetimi platformlarıyla entegre olarak IP'ler/URL'lerle ilgili harici güvenlik duruşu verilerini almayı içerebilir. Bu, Analyzer'ın kapsamlı savunma önerileri sunma yeteneğini önemli ölçüde artıracaktır. 
 
-7. IoT/OT/IoMT Cihaz Güvenliği Analizi 
+**7. IoT/OT/IoMT Cihaz Güvenliği Analizi**
 
 Operasyonel ortamlar (OT) giderek daha fazla dijitalleşmekte ve IoT teknolojileriyle entegre olmakta, genellikle buluta bağlanarak saldırı yüzeyini önemli ölçüde genişletmektedir.23 IoMT cihazları da giderek daha savunmasız hale gelmekte ve sağlık hizmetleri ağları için endişe yaratmaktadır.18 Yönlendiriciler, NVR'ler, VoIP, IP kameralar, NAS, PoS sistemleri, ADC'ler, IPMI'ler, Güvenlik Duvarları ve Alan Adı Denetleyicileri özellikle yüksek riskli cihazlar olarak tanımlanmıştır.18 Saldırılar, iş kesintilerine neden olmaktan, kritik altyapıyı hedefleyerek fiziksel zarara yol açmaya doğru kaymaktadır.23 
 
@@ -103,7 +103,7 @@ BT/OT/IoT/IoMT'nin birbirine bağlılığı, siber saldırıların artık doğru
 
 Bu durum, Analyzer'ın raporlarında OT/IoT/IoMT cihazlarıyla ilişkili riskleri açıkça vurgulaması ve farklılaştırması gerektiğini göstermektedir. Analyzer'ın "savunma önlemleri" fiziksel sistemlerin güvenliğini sağlamaya yönelik özel önerileri içermelidir; örneğin, OT için ağ segmentasyonu, endüstriyel protokoller için güvenli yapılandırmalar ve bu ortamlarda sıkça bulunan eski donanımlar için özel değerlendirmeler. Bu, Analyzer'ın değer teklifini kritik altyapı korumasına yükseltecektir. 
 
-8. URL/IP Bağlamı ile Gelişmiş Kimlik Avı ve Sosyal Mühendislik Tespiti 
+**8. URL/IP Bağlamı ile Gelişmiş Kimlik Avı ve Sosyal Mühendislik Tespiti**
 
 Kimlik avı ve sosyal mühendislik, saldırganların daha kişiselleştirilmiş ve ikna edici kampanyalar için YZ'den yararlanmasıyla 3 en büyük tehditler arasında yer almaya devam etmektedir. Bilgi hırsızı kötü amaçlı yazılımlar, 2024'te kimlik avı yoluyla %84 oranında artmıştır.24 "Sneaky 2FA" gibi saldırılar, ortadaki adam (AiTM) tekniklerini kullanarak çok faktörlü kimlik doğrulamayı (MFA) atlamaktadır.25 Bulut barındırma, kitlesel kimlik avı kampanyaları için giderek daha fazla kullanılmakta, güvenilir URL'ler/IP'ler sağlamaktadır.24 Kötü amaçlı spam'de doğrudan kötü amaçlı yazılım eklerinin yerini PDF'ler ve URL'ler almaktadır.24 
 
@@ -113,7 +113,7 @@ Kimlik avı saldırıları giderek daha sofistike hale gelmekte, güvenilir alty
 
 Bu durum, Analyzer'ın URL analizinin gerçek zamanlı içerik analizi (Trend 2'de tartışıldığı gibi LLM'ler kullanılarak), IP/alan adının son davranışını dikkate alan dinamik itibar kontrolleri 36 ve potansiyel olarak kimlik avı kitlerini ve AiTM hizmetlerini izleyen tehdit istihbaratı akışlarıyla entegrasyon gibi gelişmiş teknikleri içermesi gerektiğini göstermektedir. Bu, Analyzer'ı kötü URL'leri tanımlamaktan, aldatıcı URL'leri tanımlamaya doğru bir adım atacaktır. 
 
-9. Buluta Özgü Zafiyet Tarama ve Duruş Yönetimi 
+**9. Buluta Özgü Zafiyet Tarama ve Duruş Yönetimi**
 
 İşletmeler bulut altyapısını ve hibrit bulut çözümlerini giderek daha fazla benimsediğinden 29, bu ortamlardaki yanlış yapılandırmalar ve zafiyetler önemli riskler oluşturmaktadır. Buluta özgü zafiyet taraması, Bulut Altyapı Hizmetleri (IaaS), Platform Hizmetleri (PaaS) ve kapsayıcılı iş yükleri dahil olmak üzere bulut ortamlarındaki güvenlik zafiyetlerinin sürekli olarak tanımlanması, risk değerlendirmesi ve giderilmesini içerir. Bu, tam bulut görünürlüğü elde etmeye, sürekli taramaya, otomatik yama düzeltmesine ve kapsamlı raporlamaya odaklanır.27 
 
@@ -123,7 +123,7 @@ Bulut ortamlarında, yanlış yapılandırmalar (örneğin, aşırı izinli ayar
 
 Bu durum, Analyzer'ın "özelliklerini" bulut güvenlik duruşu yönetimi (CSPM) yeteneklerini içerecek şekilde genişletmesi gerektiğini göstermektedir. Bu, taranan IP'ler/URL'lerle ilişkili bulut hizmetlerinin (örneğin, S3 kovaları, güvenlik grupları, IAM politikaları) yapılandırmasını değerlendirmek ve yanlış yapılandırmaları yüksek öncelikli zafiyetler olarak işaretlemek için bulut API'leriyle entegrasyon anlamına gelir. Bu genişleme, Analyzer'ın bulut güvenliği alanındaki kapsamını ve değerini önemli ölçüde artıracaktır. 
 
-10. İş Bağlamı ve Tahmine Dayalı Analiz ile Otomatik Risk Puanlaması 
+**10. İş Bağlamı ve Tahmine Dayalı Analiz ile Otomatik Risk Puanlaması**
 
 Otomatik risk puanlaması, statik, teknik değerlendirmelerden (CVSS gibi) gerçek zamanlı verileri, iş bağlamını, varlık kritikliğini ve istismar tahmin puanlarını (EPSS) içeren dinamik sistemlere doğru evrilmektedir.11 YZ ve makine öğrenimi, büyük veri kümelerini analiz ederek, kalıpları belirleyerek ve gelecekteki riskleri tahmin ederek bu alanda devrim yaratmaktadır.30 Bu, yalnızca uyumluluk kontrol listelerinin ötesine geçerek stratejik karar almayı yönlendiren daha kapsamlı ve eyleme geçirilebilir risk değerlendirmelerine olanak tanır. 
 
