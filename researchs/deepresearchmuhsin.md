@@ -20,73 +20,18 @@ Geleneksel, statik IP ve URL analizi, temel olsa da, artık yeterli değildir. M
 
 Aşağıdaki tablo, 2025 yılı için belirlenen en etkili IP ve URL analiz tekniklerini özetlemektedir. Bu tablo, her bir tekniğin temel işlevini ve Analyzer için sağlayacağı birincil faydayı hızlıca kavramak amacıyla tasarlanmıştır. Bu özet, raporun daha detaylı bölümlerine geçmeden önce okuyucunun genel bir bakış açısı kazanmasına olanak tanır. Bir ürün yöneticisi veya baş geliştirici gibi yoğun bir teknik profesyonelin, raporun kapsamını ve temel önerilerini hızla anlaması için bu tür bir özet büyük değer taşır. Bu yapı, karmaşık teknik bilgilerin anında özümsenmesini sağlayarak bilgi yüklemesini önler ve raporun genel okunabilirliğini ve kullanışlılığını artırır. 
 
-Tablo 1: 2025 İçin En İyi 10 IP ve URL Analiz Tekniğinin Özeti 
-
-Teknik/Eğilim Başlığı 
-
-Kısa Açıklama 
-
-Analyzer İçin Birincil Fayda 
-
-1. YZ Destekli Davranışsal Anomali Tespiti 
-
-YZ/ML kullanarak normal ağ trafiği modellerini belirler ve sapmaları tespit eder, bilinen imzaların ötesinde yeni tehditleri ortaya çıkarır. 
-
-Gizli veya bilinmeyen tehditlerin, iç tehditlerin ve sofistike saldırıların gerçek zamanlı tespiti. 
-
-2. Büyük Dil Modeli (LLM) Destekli Tehdit İstihbaratı ve Analizi 
-
-Ağ verilerini, tehdit istihbaratını ve güvenlik günlüklerini işleyerek anomali tespiti, kimlik avı analizi ve olay müdahalesi için bağlamsal zeka sağlar. 
-
-Karmaşık güvenlik verilerinin yorumlanması, gelişen saldırı modellerinin tahmini ve daha kesin risk değerlendirmeleri. 
-
-3. Dinamik IP/URL Varlıkları için Sürekli Tehdit Maruziyeti Yönetimi (CTEM) 
-
-Siber güvenliği reaktif olmaktan proaktif hale getirerek, saldırı yüzeyinin sürekli tanımlanması, değerlendirilmesi ve azaltılması. 
-
-Saldırı yüzeyinin gerçek zamanlı görünürlüğü, dinamik varlık envanteri güncellemeleri ve iş etkisi odaklı önceliklendirme. 
-
-4. YZ Otomasyonlu Gelişmiş Harici Saldırı Yüzeyi Yönetimi (EASM) 
-
-Kuruluşun internete açık dijital varlıklarının (gölge BT dahil) sürekli tanımlanması, izlenmesi ve azaltılması. 
-
-Bilinmeyen veya yönetilmeyen dışa açık varlıkların otomatik keşfi ve saldırı vektörlerinin kapsamlı bir şekilde haritalanması. 
-
-5. Cihaz Duruş Değerlendirmesi ile Sıfır Güven Ağ Erişimi (ZTNA) 
-
-Tüm kullanıcıların ve cihazların sürekli kimlik doğrulaması ve güvenlik duruşu doğrulamasına dayalı erişim kontrolü. 
-
-Ağ etkinliğini kullanıcı ve cihaz güvenilirliği ile ilişkilendirerek daha ayrıntılı risk değerlendirmeleri. 
-
-6. IP/URL İstihbaratı Yoluyla Geliştirilmiş Tedarik Zinciri Risk Yönetimi 
-
-Üçüncü taraf satıcılar, açık kaynaklı bileşenler ve bulut hizmetleri aracılığıyla tedarik zinciri risklerinin proaktif olarak belirlenmesi ve yönetilmesi. 
-
-Üçüncü taraf varlıklarındaki zafiyetlerin tespiti ve tedarik zinciri risklerinin kapsamlı bir görünümü. 
-
-7. IoT/OT/IoMT Cihaz Güvenliği Analizi 
-
-Operasyonel teknoloji, tıbbi cihazlar ve IoT cihazlarındaki özel zafiyetlerin belirlenmesi ve risklerin azaltılması. 
-
-Kritik altyapı ve fiziksel sistemler için özelleştirilmiş güvenlik analizleri ve savunma önerileri. 
-
-8. URL/IP Bağlamı ile Gelişmiş Kimlik Avı ve Sosyal Mühendislik Tespiti 
-
-YZ destekli içerik analizi ve itibar kontrolleri kullanarak sofistike kimlik avı ve sosyal mühendislik saldırılarının tespiti. 
-
-Gelişmiş kimlik avı URL'lerinin ve aldatıcı içeriklerin tespiti, insan faktörüne yönelik tehditlere karşı koruma. 
-
-9. Buluta Özgü Zafiyet Tarama ve Duruş Yönetimi 
-
-Bulut ortamlarındaki (IaaS, PaaS, kapsayıcılar) yanlış yapılandırmaların ve zafiyetlerin sürekli izlenmesi ve yönetimi. 
-
-Bulut tabanlı varlıklar için kapsamlı zafiyet tespiti ve bulut güvenlik duruşunun iyileştirilmesi. 
-
-10. İş Bağlamı ve Tahmine Dayalı Analiz ile Otomatik Risk Puanlaması 
-
-Risk değerlendirmelerini gerçek zamanlı veriler, iş önemi ve tahmine dayalı modellerle dinamik olarak günceller. 
-
-Teknik zafiyetleri iş etkisiyle ilişkilendirerek eyleme geçirilebilir, öncelikli risk değerlendirmeleri. 
+| Teknik/Eğilim Başlığı                                                | Kısa Açıklama                                                                                                                                                                                                                | Analyzer İçin Birincil Fayda                                                                                                                                                                                                  |
+|----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. YZ Destekli Davranışsal Anomali Tespiti                           | YZ/ML kullanarak normal ağ trafiği modellerini belirler ve sapmaları tespit eder, bilinen imzaların ötesinde yeni tehditleri ortaya çıkarır.                                                                                          | Gizli veya bilinmeyen tehditlerin, iç tehditlerin ve sofistike saldırıların gerçek zamanlı tespiti.                                                                                                                   |
+| 2. Büyük Dil Modeli (LLM) Destekli Tehdit İstihbaratı ve Analizi      | Ağ verilerini, tehdit istihbaratını ve güvenlik günlüklerini işleyerek anomali tespiti, kimlik avı analizi ve olay müdahalesi için bağlamsal zeka sağlar.                                                                            | Karmaşık güvenlik verilerinin yorumlanması, gelişen saldırı modellerinin tahmini ve daha kesin risk değerlendirmeleri.                                                                                                  |
+| 3. Dinamik IP/URL Varlıkları için Sürekli Tehdit Maruziyeti Yönetimi (CTEM) | Siber güvenliği reaktif olmaktan proaktif hale getirerek, saldırı yüzeyinin sürekli tanımlanması, değerlendirilmesi ve azaltılması.                                                                                                  | Saldırı yüzeyinin gerçek zamanlı görünürlüğü, dinamik varlık envanteri güncellemeleri ve iş etkisi odaklı önceliklendirme.                                                                                              |
+| 4. YZ Otomasyonlu Gelişmiş Harici Saldırı Yüzeyi Yönetimi (EASM)      | Kuruluşun internete açık dijital varlıklarının (gölge BT dahil) sürekli tanımlanması, izlenmesi ve azaltılması.                                                                                                                      | Bilinmeyen veya yönetilmeyen dışa açık varlıkların otomatik keşfi ve saldırı vektörlerinin kapsamlı bir şekilde haritalanması.                                                                                           |
+| 5. Cihaz Duruş Değerlendirmesi ile Sıfır Güven Ağ Erişimi (ZTNA)     | Tüm kullanıcıların ve cihazların sürekli kimlik doğrulaması ve güvenlik duruşu doğrulamasına dayalı erişim kontrolü.                                                                                                                 | Ağ etkinliğini kullanıcı ve cihaz güvenilirliği ile ilişkilendirerek daha ayrıntılı risk değerlendirmeleri.                                                                                                           |
+| 6. IP/URL İstihbaratı Yoluyla Geliştirilmiş Tedarik Zinciri Risk Yönetimi | Üçüncü taraf satıcılar, açık kaynaklı bileşenler ve bulut hizmetleri aracılığıyla tedarik zinciri risklerinin proaktif olarak belirlenmesi ve yönetilmesi.                                                                        | Üçüncü taraf varlıklarındaki zafiyetlerin tespiti ve tedarik zinciri risklerinin kapsamlı bir görünümü.                                                                                                                |
+| 7. IoT/OT/IoMT Cihaz Güvenliği Analizi                               | Operasyonel teknoloji, tıbbi cihazlar ve IoT cihazlarındaki özel zafiyetlerin belirlenmesi ve risklerin azaltılması.                                                                                                                   | Kritik altyapı ve fiziksel sistemler için özelleştirilmiş güvenlik analizleri ve savunma önerileri.                                                                                                                   |
+| 8. URL/IP Bağlamı ile Gelişmiş Kimlik Avı ve Sosyal Mühendislik Tespiti | YZ destekli içerik analizi ve itibar kontrolleri kullanarak sofistike kimlik avı ve sosyal mühendislik saldırılarının tespiti.                                                                                                    | Gelişmiş kimlik avı URL'lerinin ve aldatıcı içeriklerin tespiti, insan faktörüne yönelik tehditlere karşı koruma.                                                                                                    |
+| 9. Buluta Özgü Zafiyet Tarama ve Duruş Yönetimi                      | Bulut ortamlarındaki (IaaS, PaaS, kapsayıcılar) yanlış yapılandırmaların ve zafiyetlerin sürekli izlenmesi ve yönetimi.                                                                                                               | Bulut tabanlı varlıklar için kapsamlı zafiyet tespiti ve bulut güvenlik duruşunun iyileştirilmesi.                                                                                                                    |
+| 10. İş Bağlamı ve Tahmine Dayalı Analiz ile Otomatik Risk Puanlaması | Risk değerlendirmelerini gerçek zamanlı veriler, iş önemi ve tahmine dayalı modellerle dinamik olarak günceller.                                                                                                                    | Teknik zafiyetleri iş etkisiyle ilişkilendirerek eyleme geçirilebilir, öncelikli risk değerlendirmeleri.                                                                                                             |
 
 Şekil1. YZ Destekli Davranışsal Anomali Tespiti (IP ve URL Trafiği İçin) 
 
