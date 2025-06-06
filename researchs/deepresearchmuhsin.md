@@ -179,69 +179,15 @@ Stratejik Uyum: Her bir geliştirmenin Analyzer'ın mevcut güçlü yönleri ve 
 
 Netlik ve Organizasyon: Bir tablo, mevcut özellikleri, ilgili eğilimleri, önerilen geliştirmeleri ve beklenen etkileri açıkça ayırarak planlama ve tartışmayı kolaylaştırır. 
 
-Mevcut Analyzer Özelliği/Yetenek 
-
-İlgili 2025 Eğilimi 
-
-Önerilen Geliştirme/Entegrasyon 
-
-Analyzer'ın Etkinliğine Beklenen Etki 
-
-Ağdaki Cihaz Listesi (ARP-scan, Nmap) 
-
-1. YZ Destekli Davranışsal Anomali Tespiti, 7. IoT/OT/IoMT Cihaz Güvenliği Analizi 
-
-YZ/ML tabanlı davranışsal anomali tespiti ve IoT/OT/IoMT cihaz sınıflandırması ekleme. 
-
-Bilinmeyen cihazların, anormal davranışların ve kritik altyapı zafiyetlerinin tespiti. 
-
-IP/URL Analizi (Nmap, Nikto, Gobuster, WPScan, SSLScan) 
-
-2. LLM Destekli Tehdit İstihbaratı ve Analizi, 8. Gelişmiş Kimlik Avı ve Sosyal Mühendislik Tespiti 
-
-LLM'leri kullanarak URL'lerin anlamsal analizi, kimlik avı niyeti tespiti ve gelişmiş tehdit istihbaratı korelasyonu. 
-
-Daha sofistike kimlik avı ve sosyal mühendislik saldırılarının tespiti, bağlamsal tehdit bilgisi. 
-
-Hosting ve Alan Adı Bilgileri (Whois) 
-
-6. Geliştirilmiş Tedarik Zinciri Risk Yönetimi 
-
-Whois verilerini üçüncü taraf risk değerlendirmeleri ve tedarik zinciri haritalaması ile entegre etme. 
-
-Üçüncü taraf risklerinin belirlenmesi ve tedarik zinciri zafiyetlerine karşı görünürlük. 
-
-Siber Saldırı ve Savunma Önerileri 
-
-3. CTEM, 4. EASM, 5. ZTNA, 7. IoT/OT/IoMT Cihaz Güvenliği Analizi 
-
-Sürekli izleme, dış saldırı yüzeyinin otomatik keşfi, Sıfır Güven prensiplerinin entegrasyonu ve cihaza özel güvenlik önerileri. 
-
-Proaktif güvenlik duruşu, bilinmeyen saldırı vektörlerinin azaltılması ve fiziksel sistemler için hedeflenmiş savunmalar. 
-
-Sunucuya İlişkin Açıkların Tespiti 
-
-9. Buluta Özgü Zafiyet Tarama ve Duruş Yönetimi 
-
-Bulut ortamlarındaki (IaaS, PaaS, kapsayıcılar) yanlış yapılandırmaların ve zafiyetlerin tespiti için bulut API entegrasyonu. 
-
-Bulut tabanlı varlıklar için kapsamlı zafiyet tespiti ve bulut güvenlik duruşunun iyileştirilmesi. 
-
-Risk Puanlaması 
-
-10. İş Bağlamı ve Tahmine Dayalı Analiz ile Otomatik Risk Puanlaması 
-
-Teknik zafiyet puanlarını iş kritikliği ve tahmine dayalı analizle birleştiren dinamik risk puanlama sistemi. 
-
-İş öncelikleriyle uyumlu, eyleme geçirilebilir risk değerlendirmeleri ve daha akıllı önceliklendirme. 
-
-Profesyonel PDF Raporlama 
-
-Genel olarak tüm eğilimler 
-
-Teknik bulguları iş bağlamında açıklayan, YZ destekli özetler ve görselleştirmeler içeren geliştirilmiş raporlar. 
-
-Teknik ve teknik olmayan kullanıcılar için daha anlaşılır, eyleme geçirilebilir ve etkili güvenlik raporları. 
+| Mevcut Analyzer Özelliği/Yetenek           | İlgili 2025 Eğilimi                                                                     | Önerilen Geliştirme/Entegrasyon                                                                                                                    | Analyzer'ın Etkinliğine Beklenen Etki                                                                                                                                                                                               |
+|--------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ağdaki Cihaz Listesi (ARP-scan, Nmap)       | 1. YZ Destekli Davranışsal Anomali Tespiti, 7. IoT/OT/IoMT Cihaz Güvenliği Analizi      | YZ/ML tabanlı davranışsal anomali tespiti ve IoT/OT/IoMT cihaz sınıflandırması ekleme.                                                               | Bilinmeyen cihazların, anormal davranışların ve kritik altyapı zafiyetlerinin tespiti.                                                                                                                                            |
+| IP/URL Analizi (Nmap, Nikto, Gobuster, WPScan, SSLScan) | 2. LLM Destekli Tehdit İstihbaratı ve Analizi, 8. Gelişmiş Kimlik Avı ve Sosyal Mühendislik Tespiti | LLM'leri kullanarak URL'lerin anlamsal analizi, kimlik avı niyeti tespiti ve gelişmiş tehdit istihbaratı korelasyonu.                                 | Daha sofistike kimlik avı ve sosyal mühendislik saldırılarının tespiti, bağlamsal tehdit bilgisi.                                                                                                                               |
+| Hosting ve Alan Adı Bilgileri (Whois)      | 6. Geliştirilmiş Tedarik Zinciri Risk Yönetimi                                          | Whois verilerini üçüncü taraf risk değerlendirmeleri ve tedarik zinciri haritalaması ile entegre etme.                                               | Üçüncü taraf risklerinin belirlenmesi ve tedarik zinciri zafiyetlerine karşı görünürlük.                                                                                                                                        |
+| Siber Saldırı ve Savunma Önerileri         | 3. CTEM, 4. EASM, 5. ZTNA, 7. IoT/OT/IoMT Cihaz Güvenliği Analizi                       | Sürekli izleme, dış saldırı yüzeyinin otomatik keşfi, Sıfır Güven prensiplerinin entegrasyonu ve cihaza özel güvenlik önerileri.                    | Proaktif güvenlik duruşu, bilinmeyen saldırı vektörlerinin azaltılması ve fiziksel sistemler için hedeflenmiş savunmalar.                                                                                                        |
+| Sunucuya İlişkin Açıkların Tespiti         | 9. Buluta Özgü Zafiyet Tarama ve Duruş Yönetimi                                         | Bulut ortamlarındaki (IaaS, PaaS, kapsayıcılar) yanlış yapılandırmaların ve zafiyetlerin tespiti için bulut API entegrasyonu.                         | Bulut tabanlı varlıklar için kapsamlı zafiyet tespiti ve bulut güvenlik duruşunun iyileştirilmesi.                                                                                                                               |
+| Risk Puanlaması                            | 10. İş Bağlamı ve Tahmine Dayalı Analiz ile Otomatik Risk Puanlaması                    | Teknik zafiyet puanlarını iş kritikliği ve tahmine dayalı analizle birleştiren dinamik risk puanlama sistemi.                                      | İş öncelikleriyle uyumlu, eyleme geçirilebilir risk değerlendirmeleri ve daha akıllı önceliklendirme.                                                                                                                         |
+| Profesyonel PDF Raporlama                  | Genel olarak tüm eğilimler                                                              | Teknik bulguları iş bağlamında açıklayan, YZ destekli özetler ve görselleştirmeler içeren geliştirilmiş raporlar.                                   | Teknik ve teknik olmayan kullanıcılar için daha anlaşılır, eyleme geçirilebilir ve etkili güvenlik raporları.                                                                                                                   |
 
 **V. Sonuç**
 
@@ -253,80 +199,42 @@ Giderek karmaşıklaşan siber tehditler karşısında dayanıklılığın anaht
 
 **Alıntılanan çalışmalar**
 
-Network Anomaly Detection: A Complete Guide - SearchInform, erişim tarihi Haziran 6, 2025, https://searchinform.com/cybersecurity/measures/security-monitoring/network-anomaly-detection/ 
-
-Comparative Analysis of AI-Driven Security Approaches in DevSecOps: Challenges, Solutions, and Future Directions - arXiv, erişim tarihi Haziran 6, 2025, https://arxiv.org/html/2504.19154v1 
-
-2025 Global Threat Report | Latest Cybersecurity Trends & Insights ..., erişim tarihi Haziran 6, 2025, https://www.crowdstrike.com/en-us/global-threat-report/ 
-
-Top 15 UEBA Use Cases for Today's SOCs in 2025 - Research AIMultiple, erişim tarihi Haziran 6, 2025, https://research.aimultiple.com/ueba-use-cases/ 
-
-Generative AI in Cybersecurity: A Comprehensive Review of LLM Applications and Vulnerabilities - arXiv, erişim tarihi Haziran 6, 2025, https://arxiv.org/html/2405.12750v2 
-
-TrafficLLM: Enhancing Large Language Models for Network Traffic Analysis with Generic Traffic Representation - arXiv, erişim tarihi Haziran 6, 2025, https://arxiv.org/html/2504.04222v1 
-
-5 Cybersecurity Trends to Watch in 2025, erişim tarihi Haziran 6, 2025, https://sps.wfu.edu/articles/top-cybersecurity-trends/ 
-
-Analysis of AI Tools Shows 85 Percent Have Been Breached - Security Today, erişim tarihi Haziran 6, 2025, https://securitytoday.com/articles/2025/06/02/analysis-of-ai-tools-shows-85-percent-have-been-breached.aspx 
-
-Understanding Continuous Threat Exposure Management (CTEM) - Balbix, erişim tarihi Haziran 6, 2025, https://www.balbix.com/insights/what-is-continuous-threat-exposure-management-ctem/ 
-
-What Is Continuous Threat Exposure Management (CTEM)? - CrowdStrike.com, erişim tarihi Haziran 6, 2025, https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/continuous-threat-exposure-management-ctem/ 
-
-Seven Steps to Building a Mature Vulnerability Management ..., erişim tarihi Haziran 6, 2025, https://www.infosecurity-magazine.com/news/infosec2025-seven-steps/ 
-
-What Is External Attack Surface Management? | Zpedia - Zscaler, erişim tarihi Haziran 6, 2025, https://www.zscaler.com/zpedia/what-is-external-attack-surface-management 
-
-What Is Attack Surface Management in 2025? Mapping, Reducing, and Controlling Risk, erişim tarihi Haziran 6, 2025, https://www.wiz.io/academy/attack-surface-management 
-
-10 Zero Trust Solutions for 2025 - SentinelOne, erişim tarihi Haziran 6, 2025, https://www.sentinelone.com/cybersecurity-101/identity-security/zero-trust-solutions/ 
-
-What is ZTNA? Zero Trust Network Access - CrowdStrike.com, erişim tarihi Haziran 6, 2025, https://www.crowdstrike.com/en-us/cybersecurity-101/zero-trust-security/zero-trust-network-access-ztna/ 
-
-Device Posture | Citrix Product Documentation, erişim tarihi Haziran 6, 2025, https://docs.citrix.com/en-us/device-posture/device-posture.pdf 
-
-CrowdStrike Falcon for Mobile Gains Android Enterprise and Zero Trust Integrations, erişim tarihi Haziran 6, 2025, https://www.crowdstrike.com/en-us/blog/crowdstrike-strengthens-mobile-security-with-new-integrations/ 
-
-Forescout's 2025 report reveals surge in device vulnerabilities ..., erişim tarihi Haziran 6, 2025, https://industrialcyber.co/reports/forescouts-2025-report-reveals-surge-in-device-vulnerabilities-across-it-iot-ot-and-iomt/ 
-
-The 2025 Software Supply Chain Security Report, erişim tarihi Haziran 6, 2025, https://ntsc.org/wp-content/uploads/2025/03/The-2025-Software-Supply-Chain-Security-Report-RL-compressed.pdf 
-
-The 2025 Software Supply Chain Security Report: Threats Growing and Evolving - ISACA, erişim tarihi Haziran 6, 2025, https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2025/the-2025-software-supply-chain-security-report 
-
-Conducting a Third-Party Security Risk Assessment, 2025 Complete Guide | Isora GRC, erişim tarihi Haziran 6, 2025, https://www.saltycloud.com/blog/conducting-a-third-party-security-risk-assessment-complete-guide/ 
-
-What is Third-Party Risk Management (TPRM)? - Panorays, erişim tarihi Haziran 6, 2025, https://panorays.com/blog/third-party-risk-management/ 
-
-Trends and expectations for OT security in 2025 | Nomios Group, erişim tarihi Haziran 6, 2025, https://www.nomios.com/news-blog/trends-ot-security-2025/ 
-
-IBM X-Force 2025 Threat Intelligence Index | IBM, erişim tarihi Haziran 6, 2025, https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/2025-threat-intelligence-index 
-
-What's Trending: Top Cyber Attacker Techniques, December 2024–February 2025, erişim tarihi Haziran 6, 2025, https://reliaquest.com/blog/whats-trending-top-cyber-attacker-techniques-december-2024-february-2025/ 
-
-Siber Güvenlikte 2025 Trendleri: Yeni Tehditler ve Çözümler - Vitriol Bilişim, erişim tarihi Haziran 6, 2025, https://vitriol.ltd/siber-guvenlikte-2025-trendleri-yeni-tehditler-ve-cozumler/ 
-
-Cloud Vulnerability Management [Best Practices 2025] - Sentra, erişim tarihi Haziran 6, 2025, https://www.sentra.io/learn/cloud-vulnerability-management 
-
-A Guide to Vulnerability Management - Orca Security, erişim tarihi Haziran 6, 2025, https://orca.security/resources/blog/what-is-vulnerability-management/ 
-
-2025'TE ŞİRKETLERİ BEKLEYEN SİBER GÜVENLİK TEHDİTLERİ VE ÇÖZÜM ÖNERİLERİ, erişim tarihi Haziran 6, 2025, https://bilginc.com/tr/blog/2025-te-sirketleri-bekleyen-siber-guvenlik-tehditleri-ve-cozum-onerileri-6068/ 
-
-Best 9 Compliance Risk Assessment Tools for 2025 - Centraleyes, erişim tarihi Haziran 6, 2025, https://www.centraleyes.com/best-7-compliance-risk-assessment-tools/ 
-
-Top Cybersecurity Trends to Tackle Emerging Threats - Gartner, erişim tarihi Haziran 6, 2025, https://www.gartner.com/en/cybersecurity/topics/cybersecurity-trends 
-
-IP Trends in 2025: What to Expect and How to Prepare - IamIP, erişim tarihi Haziran 6, 2025, https://iamip.com/ip-trends-in-2025-what-to-expect-and-how-to-prepare/ 
-
-Securonix Threat Labs Monthly Intelligence Insights – March 2025 ..., erişim tarihi Haziran 6, 2025, https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-march-2025/ 
-
-Employing Machine Learning Algorithms to Detect Phishing URL Websites - DOI, erişim tarihi Haziran 6, 2025, https://doi.org/10.1109/ICICNIS64247.2024.10823220 
-
-URLGuard: A Holistic Hybrid Machine Learning Approach for Phishing Detection, erişim tarihi Haziran 6, 2025, https://www.mecs-press.org/ijieeb/ijieeb-v17-n2/v17n2-5.html 
-
-7 Best IP Reputation Checkers for Email in 2025, erişim tarihi Haziran 6, 2025, https://www.emailvendorselection.com/ip-reputation-checkers/ 
-
-Top 10 Container Runtime Security Tools for 2025 - SentinelOne, erişim tarihi Haziran 6, 2025, https://www.sentinelone.com/cybersecurity-101/cloud-security/container-runtime-security-tools/ 
-
-Top Container Scanning Tools in 2025 - Aikido, erişim tarihi Haziran 6, 2025, https://www.aikido.dev/blog/top-container-scanning-tools 
-
-What is User and Entity Behavior Analytics (UEBA)? - SentinelOne, erişim tarihi Haziran 6, 2025, https://www.sentinelone.com/cybersecurity-101/cybersecurity/what-is-ueba/ 
+1.  Network Anomaly Detection: A Complete Guide - SearchInform, erişim tarihi Haziran 6, 2025, [https://searchinform.com/cybersecurity/measures/security-monitoring/network-anomaly-detection/](https://searchinform.com/cybersecurity/measures/security-monitoring/network-anomaly-detection/)
+2.  Comparative Analysis of AI-Driven Security Approaches in DevSecOps: Challenges, Solutions, and Future Directions - arXiv, erişim tarihi Haziran 6, 2025, [https://arxiv.org/html/2504.19154v1](https://arxiv.org/html/2504.19154v1)
+3.  2025 Global Threat Report | Latest Cybersecurity Trends & Insights ..., erişim tarihi Haziran 6, 2025, [https://www.crowdstrike.com/en-us/global-threat-report/](https://www.crowdstrike.com/en-us/global-threat-report/)
+4.  Top 15 UEBA Use Cases for Today's SOCs in 2025 - Research AIMultiple, erişim tarihi Haziran 6, 2025, [https://research.aimultiple.com/ueba-use-cases/](https://research.aimultiple.com/ueba-use-cases/)
+5.  Generative AI in Cybersecurity: A Comprehensive Review of LLM Applications and Vulnerabilities - arXiv, erişim tarihi Haziran 6, 2025, [https://arxiv.org/html/2405.12750v2](https://arxiv.org/html/2405.12750v2)
+6.  TrafficLLM: Enhancing Large Language Models for Network Traffic Analysis with Generic Traffic Representation - arXiv, erişim tarihi Haziran 6, 2025, [https://arxiv.org/html/2504.04222v1](https://arxiv.org/html/2504.04222v1)
+7.  5 Cybersecurity Trends to Watch in 2025, erişim tarihi Haziran 6, 2025, [https://sps.wfu.edu/articles/top-cybersecurity-trends/](https://sps.wfu.edu/articles/top-cybersecurity-trends/)
+8.  Analysis of AI Tools Shows 85 Percent Have Been Breached - Security Today, erişim tarihi Haziran 6, 2025, [https://securitytoday.com/articles/2025/06/02/analysis-of-ai-tools-shows-85-percent-have-been-breached.aspx](https://securitytoday.com/articles/2025/06/02/analysis-of-ai-tools-shows-85-percent-have-been-breached.aspx)
+9.  Understanding Continuous Threat Exposure Management (CTEM) - Balbix, erişim tarihi Haziran 6, 2025, [https://www.balbix.com/insights/what-is-continuous-threat-exposure-management-ctem/](https://www.balbix.com/insights/what-is-continuous-threat-exposure-management-ctem/)
+10. What Is Continuous Threat Exposure Management (CTEM)? - CrowdStrike.com, erişim tarihi Haziran 6, 2025, [https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/continuous-threat-exposure-management-ctem/](https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/continuous-threat-exposure-management-ctem/)
+11. Seven Steps to Building a Mature Vulnerability Management ..., erişim tarihi Haziran 6, 2025, [https://www.infosecurity-magazine.com/news/infosec2025-seven-steps/](https://www.infosecurity-magazine.com/news/infosec2025-seven-steps/)
+12. What Is External Attack Surface Management? | Zpedia - Zscaler, erişim tarihi Haziran 6, 2025, [https://www.zscaler.com/zpedia/what-is-external-attack-surface-management](https://www.zscaler.com/zpedia/what-is-external-attack-surface-management)
+13. What Is Attack Surface Management in 2025? Mapping, Reducing, and Controlling Risk, erişim tarihi Haziran 6, 2025, [https://www.wiz.io/academy/attack-surface-management](https://www.wiz.io/academy/attack-surface-management)
+14. 10 Zero Trust Solutions for 2025 - SentinelOne, erişim tarihi Haziran 6, 2025, [https://www.sentinelone.com/cybersecurity-101/identity-security/zero-trust-solutions/](https://www.sentinelone.com/cybersecurity-101/identity-security/zero-trust-solutions/)
+15. What is ZTNA? Zero Trust Network Access - CrowdStrike.com, erişim tarihi Haziran 6, 2025, [https://www.crowdstrike.com/en-us/cybersecurity-101/zero-trust-security/zero-trust-network-access-ztna/](https://www.crowdstrike.com/en-us/cybersecurity-101/zero-trust-security/zero-trust-network-access-ztna/)
+16. Device Posture | Citrix Product Documentation, erişim tarihi Haziran 6, 2025, [https://docs.citrix.com/en-us/device-posture/device-posture.pdf](https://docs.citrix.com/en-us/device-posture/device-posture.pdf)
+17. CrowdStrike Falcon for Mobile Gains Android Enterprise and Zero Trust Integrations, erişim tarihi Haziran 6, 2025, [https://www.crowdstrike.com/en-us/blog/crowdstrike-strengthens-mobile-security-with-new-integrations/](https://www.crowdstrike.com/en-us/blog/crowdstrike-strengthens-mobile-security-with-new-integrations/)
+18. Forescout's 2025 report reveals surge in device vulnerabilities ..., erişim tarihi Haziran 6, 2025, [https://industrialcyber.co/reports/forescouts-2025-report-reveals-surge-in-device-vulnerabilities-across-it-iot-ot-and-iomt/](https://industrialcyber.co/reports/forescouts-2025-report-reveals-surge-in-device-vulnerabilities-across-it-iot-ot-and-iomt/)
+19. The 2025 Software Supply Chain Security Report, erişim tarihi Haziran 6, 2025, [https://ntsc.org/wp-content/uploads/2025/03/The-2025-Software-Supply-Chain-Security-Report-RL-compressed.pdf](https://ntsc.org/wp-content/uploads/2025/03/The-2025-Software-Supply-Chain-Security-Report-RL-compressed.pdf)
+20. The 2025 Software Supply Chain Security Report: Threats Growing and Evolving - ISACA, erişim tarihi Haziran 6, 2025, [https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2025/the-2025-software-supply-chain-security-report](https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2025/the-2025-software-supply-chain-security-report)
+21. Conducting a Third-Party Security Risk Assessment, 2025 Complete Guide | Isora GRC, erişim tarihi Haziran 6, 2025, [https://www.saltycloud.com/blog/conducting-a-third-party-security-risk-assessment-complete-guide/](https://www.saltycloud.com/blog/conducting-a-third-party-security-risk-assessment-complete-guide/)
+22. What is Third-Party Risk Management (TPRM)? - Panorays, erişim tarihi Haziran 6, 2025, [https://panorays.com/blog/third-party-risk-management/](https://panorays.com/blog/third-party-risk-management/)
+23. Trends and expectations for OT security in 2025 | Nomios Group, erişim tarihi Haziran 6, 2025, [https://www.nomios.com/news-blog/trends-ot-security-2025/](https://www.nomios.com/news-blog/trends-ot-security-2025/)
+24. IBM X-Force 2025 Threat Intelligence Index | IBM, erişim tarihi Haziran 6, 2025, [https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/2025-threat-intelligence-index](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/2025-threat-intelligence-index)
+25. What's Trending: Top Cyber Attacker Techniques, December 2024–February 2025, erişim tarihi Haziran 6, 2025, [https://reliaquest.com/blog/whats-trending-top-cyber-attacker-techniques-december-2024-february-2025/](https://reliaquest.com/blog/whats-trending-top-cyber-attacker-techniques-december-2024-february-2025/)
+26. Siber Güvenlikte 2025 Trendleri: Yeni Tehditler ve Çözümler - Vitriol Bilişim, erişim tarihi Haziran 6, 2025, [https://vitriol.ltd/siber-guvenlikte-2025-trendleri-yeni-tehditler-ve-cozumler/](https://vitriol.ltd/siber-guvenlikte-2025-trendleri-yeni-tehditler-ve-cozumler/)
+27. Cloud Vulnerability Management [Best Practices 2025] - Sentra, erişim tarihi Haziran 6, 2025, [https://www.sentra.io/learn/cloud-vulnerability-management](https://www.sentra.io/learn/cloud-vulnerability-management)
+28. A Guide to Vulnerability Management - Orca Security, erişim tarihi Haziran 6, 2025, [https://orca.security/resources/blog/what-is-vulnerability-management/](https://orca.security/resources/blog/what-is-vulnerability-management/)
+29. 2025'TE ŞİRKETLERİ BEKLEYEN SİBER GÜVENLİK TEHDİTLERİ VE ÇÖZÜM ÖNERİLERİ, erişim tarihi Haziran 6, 2025, [https://bilginc.com/tr/blog/2025-te-sirketleri-bekleyen-siber-guvenlik-tehditleri-ve-cozum-onerileri-6068/](https://bilginc.com/tr/blog/2025-te-sirketleri-bekleyen-siber-guvenlik-tehditleri-ve-cozum-onerileri-6068/)
+30. Best 9 Compliance Risk Assessment Tools for 2025 - Centraleyes, erişim tarihi Haziran 6, 2025, [https://www.centraleyes.com/best-7-compliance-risk-assessment-tools/](https://www.centraleyes.com/best-7-compliance-risk-assessment-tools/)
+31. Top Cybersecurity Trends to Tackle Emerging Threats - Gartner, erişim tarihi Haziran 6, 2025, [https://www.gartner.com/en/cybersecurity/topics/cybersecurity-trends](https://www.gartner.com/en/cybersecurity/topics/cybersecurity-trends)
+32. IP Trends in 2025: What to Expect and How to Prepare - IamIP, erişim tarihi Haziran 6, 2025, [https://iamip.com/ip-trends-in-2025-what-to-expect-and-how-to-prepare/](https://iamip.com/ip-trends-in-2025-what-to-expect-and-how-to-prepare/)
+33. Securonix Threat Labs Monthly Intelligence Insights – March 2025 ..., erişim tarihi Haziran 6, 2025, [https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-march-2025/](https://www.securonix.com/blog/securonix-threat-labs-monthly-intelligence-insights-march-2025/)
+34. Employing Machine Learning Algorithms to Detect Phishing URL Websites - DOI, erişim tarihi Haziran 6, 2025, [https://doi.org/10.1109/ICICNIS64247.2024.10823220](https://doi.org/10.1109/ICICNIS64247.2024.10823220)
+35. URLGuard: A Holistic Hybrid Machine Learning Approach for Phishing Detection, erişim tarihi Haziran 6, 2025, [https://www.mecs-press.org/ijieeb/ijieeb-v17-n2/v17n2-5.html](https://www.mecs-press.org/ijieeb/ijieeb-v17-n2/v17n2-5.html)
+36. 7 Best IP Reputation Checkers for Email in 2025, erişim tarihi Haziran 6, 2025, [https://www.emailvendorselection.com/ip-reputation-checkers/](https://www.emailvendorselection.com/ip-reputation-checkers/)
+37. Top 10 Container Runtime Security Tools for 2025 - SentinelOne, erişim tarihi Haziran 6, 2025, [https://www.sentinelone.com/cybersecurity-101/cloud-security/container-runtime-security-tools/](https://www.sentinelone.com/cybersecurity-101/cloud-security/container-runtime-security-tools/)
+38. Top Container Scanning Tools in 2025 - Aikido, erişim tarihi Haziran 6, 2025, [https://www.aikido.dev/blog/top-container-scanning-tools](https://www.aikido.dev/blog/top-container-scanning-tools)
+39. What is User and Entity Behavior Analytics (UEBA)? - SentinelOne, erişim tarihi Haziran 6, 2025, [https://www.sentinelone.com/cybersecurity-101/cybersecurity/what-is-ueba/](https://www.sentinelone.com/cybersecurity-101/cybersecurity/what-is-ueba/)
